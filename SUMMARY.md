@@ -1,7 +1,8 @@
 # Summary
 
+* [Readme](READM.md)
 ## Parte 1
-* [Introduction](README.md)
+* [Introdução](Introdução.md)
 * [Instalando R e Shiny](InstalandoR.md)
 * [Shiny, o que é?](IntroShiny.md)
 
