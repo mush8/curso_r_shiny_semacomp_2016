@@ -1,3 +1,3 @@
-# Instalando R e Shiny
+# Instalando R e RStudio
 
 
