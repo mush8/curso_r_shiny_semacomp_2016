@@ -1,5 +1,5 @@
 # Summary
 
 * [Introdução](README.md)
-* [First Chapter](chapter1.md)
+* [Instalando R e Shiny](chapter1.md)
 
