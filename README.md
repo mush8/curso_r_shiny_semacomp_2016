@@ -1,4 +1,4 @@
-# Introdução ao R e Shiny
+# README
 
 ```
 sessionInfo()
