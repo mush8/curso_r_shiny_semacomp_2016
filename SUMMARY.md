@@ -1,6 +1,6 @@
 # Summary
 
-  * [Readme](READM.md)
+  * [Readme](README.md)
     * [Instalando R e Shiny](InstalandoR.md)
     * [Introdução](Introdução.md)
   * Parte 1
