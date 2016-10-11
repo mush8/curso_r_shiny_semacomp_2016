@@ -2,6 +2,6 @@
 
 ### Parte 1
 
-* [Introdução](README.md)
-* [Instalando R e Shiny](chapter1.md)
+* [Introdução](Introdução.md)
+* [Instalando R e Shiny](InstalandoR.md)
 
