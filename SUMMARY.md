@@ -1,7 +1,7 @@
 # Summary
 
   * [Readme](README.md)
-    * [Instalando R e Shiny](InstalandoR.md)
+    * [Instalando R e RStudio](InstalandoR.md)
     * [Introdução](Introdução.md)
   * [Parte 1](Parte 1/README.md)
     * [Por quê R?](Parte 1/pqR.md)
