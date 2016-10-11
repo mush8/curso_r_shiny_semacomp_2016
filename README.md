@@ -1,7 +1,8 @@
 # README
 
-```
-sessionInfo()
-```
+Bem vindo ao treinamento **Introdução ao**
 
-<b>oioioi</b>
+
+## Sites para referência futura
+* http://shiny.rstudio.com/
+* https://www.shinyapps.io/
