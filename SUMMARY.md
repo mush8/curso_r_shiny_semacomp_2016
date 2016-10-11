@@ -1,7 +1,7 @@
 # Summary
 
 ### Parte 1
-* [Introdução](Introdução.md)
+* [Introdução](Introduction.md)
 * [Instalando R e Shiny](InstalandoR.md)
 
 ### Parte 2
