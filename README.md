@@ -1,6 +1,6 @@
 # Introdução ao R e Shiny
 
-Bem vindo ao treinamento *Introdução ao R e Shiny* da **SEMaComp 2016**. Este material foi desenvolvido para o treinamento ministrado durante nossa programação no *Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo*.
+Bem vindo(a) ao treinamento *Introdução ao R e Shiny* na **SEMaComp 2016**. Este material foi desenvolvido para o treinamento ministrado durante nossa programação no *Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo*.
 
 O material foi compilado de diversas fontes, como:
 1. https://www.r-project.org/
@@ -12,3 +12,9 @@ O material foi compilado de diversas fontes, como:
 ## Sites para referência futura
 * http://shiny.rstudio.com/
 * https://www.shinyapps.io/
+
+## Material produzido e organizado por:
+
+* Ricardo Manhães Savii
+* Bruno Ogata
+* Alexandre Aono
