@@ -1,10 +1,10 @@
-# Instalando R e RStudio
+# Instalando R e RStudio e Shiny
 
 Para iniciar com R você primeiro precisa adquirir uma cópia. R e RStudio são ambos gratuitos.
 
 ## Como baixar e instalar R
 
-R é mantido por uma equipe internacional de desenvolvedores que fazem a linguagem disponível através da página web [**The Compehensive R Archive Network**](cran.r-project.org) (A rede de arquivo compreensiva de R). No topo da página há três links que te direcionam às instalações em: Windows, Mac ou Linux.
+R é mantido por uma equipe internacional de desenvolvedores que fazem a linguagem disponível através da página web [**The Compehensive R Archive Network**](cran.r-project.org) (A rede compreensiva de arquivo R). No topo da página há três links que te direcionam às instalações em: Windows, Mac ou Linux.
 
 ### Binário ou da Fonte
 O R pode ser instalado de arquivos binários pré-compilados (*precompiled binaries*) ou construído da fonte (*built from source*) para qualquer sistema operativo. Para Windows e Mac, instalar dos arquivos binários é bem fácil. O binário vem carregado com seu próprio instalador. Apesar de você poder contruir da fonte nestas plataformas, o processo é bem mais complicado e não irá oferecer muitos benefícios à maioria dos usuários. Para Linux, o oposto é verdade. Arquivos binários pré-compilados podem ser encontrados para alguns sistemas, mas é muito mais comum construir R de arquivos fontes. As páginas de download em [**CRAN**](https://cran.r-project.org/) fornece informações sobre contruir da fonte para Windows, Mac e Linux.
@@ -24,6 +24,14 @@ Para instalar R em um Mac, clique no link *"Download R for Mac"*. Um instalador 
 ### Linux
 
 R vem pré-instalado em várias distribuições Linux, mas se quiser a versão de R mais atualizada precisará instala-la. O [**site CRAN**](https://cran.r-project.org/) disponibiliza os arquivos para contruir R da fonte em Debian, Redhat, SUSE, e Ubuntu no link *"Download R for Linux"*. O procedimento exato de instalação varia dependendo da distribuição Linux em uso. CRAN oference os arquivos fontes com arquivos README que explicam como instala-los.
+
+## Usando R
+
+R não é um programa, é uma linguagem de programação, como C, C++, Python ou UNIX. Você usa R escrevendo comandos na linguagem R e pedindo para seu computador interpreta-los. Há pessoas que preferem utilizar R na janela terminal UNIX - como nos filmes de hackers de 1980... Mas na atualidade temos as IDEs (Interfaces de Desenvolvimento), as quais auxiliam muito
+
+### Como baixar e instalar RStudio
+
+## Instalando Shiny
 
 ## Outras referências
 Em sistema Ubuntu, realizar até o passo 4 deste tutorial:
