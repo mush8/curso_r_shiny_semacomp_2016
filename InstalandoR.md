@@ -66,6 +66,3 @@ Na sua primeira instação de pacotes, R irá perguntar de qual origem (*"mirror
 
 O tutorial abaixo é muito bom para instalação das últimas versões do R e RStudio em sistema Ubuntu:
 * https://www.digitalocean.com/community/tutorials/how-to-set-up-r-on-ubuntu-14-04
-
-Após instalar o R e RStudio, aplicar o comando abaixo para instalar o:
-* install.packages("shiny")
