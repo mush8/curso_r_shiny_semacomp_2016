@@ -20,5 +20,3 @@ Este material é um compilado de diversas fontes, como:
 ## Material produzido e organizado por:
 
 * [Ricardo Manhães Savii](https://github.com/ricoms)
-* Bruno Ogata
-* Alexandre Aono
