@@ -20,6 +20,6 @@ Este material é um compilado de diversas fontes, como:
 [6] [R cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
 
-## Material produzido e organizado por:
+## Material produzido por:
 
 * [Ricardo Manhães Savii](https://github.com/ricoms)
