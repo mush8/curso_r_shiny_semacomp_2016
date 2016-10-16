@@ -6,18 +6,17 @@ Este material é um compilado de diversas fontes, como:
 
 [1] GROLEMUND, Garrett. **Hands-On Programming with R: Write Your Own Functions and Simulations.** O'Reilly Media, Inc., 2014.
 
-
 [2] WICKHAM, Hadley. **R packages.** O'Reilly Media, Inc., 2015.
 
-[2] https://www.r-project.org/
+[3] https://www.r-project.org/
 
-[3] https://cran.r-project.org/doc/manuals/r-release/R-intro.html
+[4] https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 
-[4] http://shiny.rstudio.com/tutorial/
+[5] http://shiny.rstudio.com/tutorial/
 
-[5] https://www.shinyapps.io/
+[6] https://www.shinyapps.io/
 
-[6] [R cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+[7] [R cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
 
 ## Material produzido por:
