@@ -1,4 +1,4 @@
-# Parte 1
+# Parte 1: R
 
 Nesta seção iremos ver como aplicar, organizar e aprofundar nossos conhecimentos na linguagem R.
 
