@@ -1,6 +1,6 @@
 # Summary
 
-* [Readme](README.md)
+* [Começando](README.md)
    * [Instalando R e RStudio](InstalandoR.md)
    * [Introdução](introducaomd.md)
 * [Parte 1](Parte 1/README.md)
