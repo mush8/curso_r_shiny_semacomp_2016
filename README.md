@@ -14,6 +14,8 @@ Este material é um compilado de diversas fontes, como:
 
 [5] https://www.shinyapps.io/
 
+[6] [R cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+
 
 ## Material produzido e organizado por:
 
