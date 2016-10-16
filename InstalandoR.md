@@ -39,7 +39,7 @@ Quando abrir o RStudio, uma janela com três paineis nela irá aparecer, como na
 ![Primeira vez no RStudio](A1.jpg)
 O painel maior à esquerda é o *console* (janela de comandos), aqui é onde irá processar comandos de R e ver os resultados. Essa janela é exatamente se você estivesse rodando o R por um terminal, todas as outras janelas são únicas do RStudio. Nele você pode ter um editor de texto, uma janela gráfica, um *debugger* (depurador), um gerenciador de arquivos, etc. Utilizando-o você irá familiarizando-se com as posibilidades, não tenha medo de explorar.
 
-Na figura abaixo você já tem um RStudio com diversas indicações do que faz cada coisa. Algumas indicações nesta janela podem não fazer sentido no momento, mas pode precisar/utiliza-las futuramente. Minha sugestão é que tome seu tempo para familiarizar-se com sua própria janela do RStudio, um bom conhecimento da ferramenta que utiliza irá economizar muito tempo de seu trabalho.
+Na figura abaixo você já tem um RStudio com diversas indicações do que faz cada coisa. Algumas indicações nesta janela podem não fazer sentido no momento, mas pode precisar/utiliza-las futuramente. Minha sugestão é que tome seu tempo para familiarizar-se com sua própria janela do RStudio, um bom conhecimento da ferramenta que utiliza irá economizar muito tempo em seus projetos.
 
 ![RStudio cheatsheet](a1.png)
 
