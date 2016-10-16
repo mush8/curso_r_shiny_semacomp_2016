@@ -6,7 +6,7 @@ Para iniciar com R você primeiro precisa adquirir uma cópia. R e RStudio são 
 
 R é mantido por uma equipe internacional de desenvolvedores que fazem a linguagem disponível através da página web [**The Compehensive R Archive Network**](cran.r-project.org) (A rede compreensiva de arquivo R). No topo da página há três links que te direcionam às instalações em: Windows, Mac ou Linux.
 
-### Binário ou da Fonte
+### Binary ou Source
 O R pode ser instalado de arquivos binários pré-compilados (*precompiled binaries*) ou construído da fonte (*built from source*) para qualquer sistema operativo. Para Windows e Mac, instalar dos arquivos binários é bem fácil. O binário vem carregado com seu próprio instalador. Apesar de você poder contruir da fonte nestas plataformas, o processo é bem mais complicado e não irá oferecer muitos benefícios à maioria dos usuários. Para Linux, o oposto é verdade. Arquivos binários pré-compilados podem ser encontrados para alguns sistemas, mas é muito mais comum construir R de arquivos fontes. As páginas de download em [**CRAN**](https://cran.r-project.org/) fornece informações sobre contruir da fonte para Windows, Mac e Linux.
 
 ### 32-bit ou 64-bit
