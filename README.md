@@ -4,7 +4,10 @@ Bem vindo(a) ao treinamento *Introdução ao R e Shiny* na **SEMaComp 2016**. Es
 
 Este material é um compilado de diversas fontes, como:
 
-[1] GROLEMUND, Garrett. Hands-On Programming with R: Write Your Own Functions and Simulations. " O'Reilly Media, Inc.", 2014.
+[1] GROLEMUND, Garrett. **Hands-On Programming with R: Write Your Own Functions and Simulations.** O'Reilly Media, Inc., 2014.
+
+
+[2] WICKHAM, Hadley. **R packages.** O'Reilly Media, Inc., 2015.
 
 [2] https://www.r-project.org/
 
