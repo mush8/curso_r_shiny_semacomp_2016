@@ -27,20 +27,45 @@ R vem pré-instalado em várias distribuições Linux, mas se quiser a versão d
 
 ## Usando R
 
-R não é um programa, é uma linguagem de programação, como C, C++, Python ou UNIX. Você usa R escrevendo comandos na linguagem R e pedindo para seu computador interpreta-los. Há pessoas que preferem utilizar R na janela terminal UNIX - como nos filmes de hackers de 1980... Mas na atualidade temos as IDEs (Interfaces de Desenvolvimento), as quais auxiliam muito
+R não é um programa, é uma linguagem de programação, como C, C++, Python ou UNIX. Você usa R escrevendo comandos na linguagem R e pedindo para seu computador interpreta-los. Há pessoas que preferem utilizar R na janela terminal UNIX - como nos filmes de hackers de 1980... Mas na atualidade temos as IDEs (Interfaces de Desenvolvimento), as quais auxiliam muito. A IDE padrão para o R é o RStudio.
 
 ### Como baixar e instalar RStudio
 
+Você pode fazer download gratuíto aqui: [RStudio](https://www.rstudio.com/products/rstudio/).
+Basta clicar em "Download RStudio" e seguir as instruções da instalação.
+
+Quando abrir o RStudio, uma janela com três paineis nela irá aparecer, como na figura abaixo. 
+
+![Primeira vez no RStudio](A1.jpg)
+O painel maior à esquerda é o *console* (janela de comandos), aqui é onde irá processar comandos de R e ver os resultados. Essa janela é exatamente se você estivesse rodando o R por um terminal, todas as outras janelas são únicas do RStudio. Nele você pode ter um editor de texto, uma janela gráfica, um *debugger* (depurador), um gerenciador de arquivos, etc. Utilizando-o você irá familiarizando-se com as posibilidades, não tenha medo de explorar.
+
+Na figura abaixo você já tem um RStudio com diversas indicações do que faz cada coisa, tome seu tempo para familiarizar-se com sua própria janela do RStudio e as indicações mostradas aqui.
+
+![RStudio cheatsheet](a1.png)
+
 ## Instalando Shiny
 
-## Outras referências
-Em sistema Ubuntu, realizar até o passo 4 deste tutorial:
-* https://www.digitalocean.com/community/tutorials/how-to-set-up-r-on-ubuntu-14-04
-* e instalar o RStudio https://www.rstudio.com/
+A linguagem R já oferece uma gama extensa de funções para utilizarmos, estas funções iniciais chamamos de **base do R** (ou *"base R"* em inglês). Mas muitas vezes, normalmente para tarefas complexas, podemos economizar nosso tempo utilizando algum pacote que nos forneça funções já implementadas para usos específicos. Os pacotes do R funcionam de forma similar às bibliotecas do C, C++ e Javascript, pacotes de Python, e as gemas em Ruby.
 
-Em sistema Windows, seguir as instalações em:
-* https://cran.r-project.org/
-* https://www.rstudio.com/products/rstudio/download3/
+Os pacotes do R juntam funções úteis, arquivos de ajuda, e bases de dados. Uma vez que você carregue o pacote para o seu programa poderá utilizar as funções implementadas neles. Neste treinamento focaremos em um pacote específico, o **shiny**, mas como todos os outros pacotes da linguagem R, iremos utilizar um comando do próprio R `install.packages()` para instala-lo. No console do RStudio, digite o comando abaixo:
+
+```
+install.packages("shiny")
+```
+Este comando irá procurar por um pacote específico na coleção de pacotes disponível no site CRAN. Qando o encontrar, irá realizar o download para a pasta de bibliotecas dp R em seu computador. Assim o R poderá acessar o pacote em futuras sessões, sem necessidade de reinstalar. Um ponto, importante de atenção, qualquer um pode escrever um pacote de R e compartilha-lo como quiser. Mas praticamente todos os pacotes são publicados através do CRAN, onde testam todos os pacotes antes de publica-los. Isto não elimina todos os *bugs* (erros) internos do pacote, mas te dá mais confiança para rodar um pacote.
+
+Caso se interesse/precise, pode instalar vários pacotes de uma vez, com a função de **concatenação** do R, `c`. Por exemplo,
+
+```
+install.packages(c("ggplot2", "reshape2", "dplyr"))
+```
+
+Na sua primeira instação de pacotes, R irá perguntar de qual origem (*"mirror"*) deseja instalar. Os *mirrors* são classificados por localização, e o *download* supoem-se mais rápido de *mirrors* mais próximos. O *mirror* principal é o da Austria, nele são disponibilizados os pacotes novos e replicados para os outros em alguns dias.
+
+## Outras referências
+
+O tutorial abaixo é muito bom para instalação das últimas versões do R e RStudio em sistema Ubuntu:
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-r-on-ubuntu-14-04
 
 Após instalar o R e RStudio, aplicar o comando abaixo para instalar o:
 * install.packages("shiny")
