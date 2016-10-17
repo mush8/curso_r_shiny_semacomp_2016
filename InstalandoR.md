@@ -39,13 +39,13 @@ Quando abrir o RStudio, uma janela com três paineis nela irá aparecer, como na
 ![Primeira vez no RStudio](A1.jpg)
 O painel maior à esquerda é o *console* (janela de comandos), aqui é onde irá processar comandos de R e ver os resultados. Essa janela é exatamente se você estivesse rodando o R por um terminal, todas as outras janelas são únicas do RStudio. Nele você pode ter um editor de texto, uma janela gráfica, um *debugger* (depurador), um gerenciador de arquivos, etc. Utilizando-o você irá familiarizando-se com as posibilidades, não tenha medo de explorar.
 
-Na figura abaixo você já tem um RStudio com diversas indicações do que faz cada coisa. Algumas indicações nesta janela podem não fazer sentido no momento, mas pode precisar/utiliza-las futuramente. Minha sugestão é que tome seu tempo para familiarizar-se com sua própria janela do RStudio, um bom conhecimento da ferramenta que utiliza irá economizar muito tempo em seus projetos.
+Na figura abaixo você já tem um RStudio com diversas indicações do que faz cada coisa. Algumas indicações nesta janela podem não fazer sentido no momento, mas pode precisar utiliza-las futuramente. Minha sugestão é que tome seu tempo para familiarizar-se com sua própria janela do RStudio, um bom conhecimento da ferramenta que utiliza irá economizar muito tempo em seus projetos.
 
 ![RStudio cheatsheet](a1.png)
 
 ## Instalando Shiny
 
-A linguagem R já oferece uma gama extensa de funções para utilizarmos, estas funções iniciais chamamos de **base do R** (ou *"base R"* em inglês). Mas muitas vezes, normalmente para tarefas complexas, podemos economizar nosso tempo utilizando algum pacote que nos forneça funções já implementadas para usos específicos. Os pacotes do R funcionam de forma similar às bibliotecas do C, C++ e Javascript, pacotes de Python, e as gemas em Ruby.
+A linguagem R já oferece uma extensa gama de funções para utilizar. Estas funções iniciais chamamos de **base do R** (ou *"base R"* em inglês). Mas muitas vezes, normalmente para tarefas complexas, podemos economizar nosso tempo utilizando algum pacote que nos forneça funções já implementadas para usos específicos. Os pacotes do R funcionam de forma similar às bibliotecas do C, C++ e Javascript, pacotes de Python, e as gemas em Ruby.
 
 Os pacotes do R juntam funções úteis, arquivos de ajuda, e bases de dados. Uma vez que você carregue o pacote para o seu programa poderá utilizar as funções implementadas neles. Neste treinamento focaremos em um pacote específico, o **shiny**, mas como todos os outros pacotes da linguagem R, iremos utilizar um comando do próprio R `install.packages()` para instala-lo. No console do RStudio, digite o comando abaixo:
 
