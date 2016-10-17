@@ -21,7 +21,7 @@ Os comandos do R são feitos de **Expressões** e **Atribuições**. **Expressã
 ####Operações Lógicas
 * **> ou >= :** *Maior* ou *Maior ou Igual*
 * **< ou <= :** *Menor* ou *Menor ou Igual*
-* **== ou != :** *Igual* e *Diferente*
+* **== ou != :** *Igual* ou *Diferente*
 * **& ou | ou ! :** *And* ou *Or* ou *Not*
 * **T ou F :** *True* ou *False
 
