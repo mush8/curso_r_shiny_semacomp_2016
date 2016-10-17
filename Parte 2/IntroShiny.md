@@ -3,7 +3,7 @@
 O pacote shiny disponibilizar onze exemplos já construídos que demonstram como shiny funciona. Cada exemplo é um aplicativo completo e independente.
 
 ![Exemplo *Hello Shiny*](01_hello.png)
-O exemplo **Hello Shiny** traça o histograma da base `faithful` do R, com um número configurável de divisórias. O usuário pode mudar o número de divisórias com uma barra de deslizamento, e o app responde em tempo real. Vamos utilizar o **Hello Shiny** para explocar a estrutura de um aplicativo Shiny e criar nosso primeiro app.
+O exemplo **Hello Shiny** traça o histograma da base `faithful` do R, com um número configurável de divisórias. O usuário pode mudar o número de divisórias com uma barra de deslizamento, e o app responde em tempo real. Vamos utilizar o **Hello Shiny** para explorar a estrutura de um aplicativo Shiny e criar nosso primeiro app.
 
 Para rodar **Hello Shiny**, digite:
 ```r
@@ -52,5 +52,24 @@ Já o código `server.R` contém as instruções que o computador precisa para c
 #### server.R
 
 ```r
+library(shiny)
 
+# Define a lógica do server necessária para desenhar o histograma
+shinyServer(function(input, output) {
+
+  # Expression that generates a histogram. The expression is
+  # wrapped in a call to renderPlot to indicate that:
+  #
+  #  1) It is "reactive" and therefore should re-execute automatically
+  #     when inputs change
+  #  2) Its output type is a plot
+
+  output$distPlot <- renderPlot({
+    x    <- faithful[, 2]  # Old Faithful Geyser data
+    bins <- seq(min(x), max(x), length.out = input$bins + 1)
+
+    # draw the histogram with the specified number of bins
+    hist(x, breaks = bins, col = 'darkgray', border = 'white')
+  })
+})
 ```
