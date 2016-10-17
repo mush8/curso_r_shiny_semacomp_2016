@@ -10,6 +10,6 @@
 * [Parte 2](Parte 2/README.md)
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
    * [Sua vez](Parte 2/sua_vez.md)
-   * Desafios
    * [Aprofundando](Parte 2/aprofundando.md)
+   * Desafios
 
