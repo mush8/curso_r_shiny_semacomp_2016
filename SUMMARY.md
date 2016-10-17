@@ -11,5 +11,5 @@
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
    * [Sua vez](Parte 2/sua_vez.md)
    * [Aprofundando](Parte 2/aprofundando.md)
-   * Desafios
+   * [Desafios](Parte 2/desafios.md)
 
