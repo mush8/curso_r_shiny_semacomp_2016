@@ -8,6 +8,6 @@
    * [Operações Básicas](Parte 1/Rmais.md)
    * [Desafios](Parte 1/Rdesafios.md)
 * [Parte 2](Parte 2/README.md)
+   * Aprofundando
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
-* Aprofundando
 
