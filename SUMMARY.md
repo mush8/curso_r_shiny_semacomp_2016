@@ -6,7 +6,7 @@
 * [Parte 1](Parte 1/README.md)
    * [Primeiros passos com R](Parte 1/massaR.md)
    * [Operações Básicas](Parte 1/Rmais.md)
-   * Carregar e Salvar Dados em R
+   * [Carregar e Salvar Dados em R](Parte 1/carregar_e_salvar_dados_em_r.md)
    * [Desafios](Parte 1/Rdesafios.md)
 * [Parte 2](Parte 2/README.md)
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
