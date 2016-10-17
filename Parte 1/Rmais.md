@@ -41,10 +41,11 @@ O R opera em [estrutura de dados](https://pt.wikipedia.org/wiki/Estrutura_de_dad
 ![](OperacoesVetores1.png)
 ######Console:
 ![](ConsoleVetores.png)
+#####Também podemos atribuir um Vetor de Caracteres:
 
 
+![](Atrib_VetorChar1.png)
 
-
-
+  
 
 
