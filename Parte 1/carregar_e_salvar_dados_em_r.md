@@ -1,6 +1,6 @@
 # Carregar e Salvar Dados em R
 
-Nesta seção você verá como carregar e salvar dados em R à partir de arquivos simples de texto, arquivos R, e planilhas Excel. Também iremos indicar pacotes que você pode usar para carregar dados de bases de dados e outros programas comuns como SAS e MATLAB.
+Nesta seção você verá como carregar e salvar dados em R à partir de arquivos simples de texto e planilhas Excel. O R disponibiliza muitas mais possibilidades, como salvar dados em arquivos próprios de R e há pacotes que você pode usar para carregar dados de bancos de dados e outros programas comuns como SAS e MATLAB.
 
 ## Conjuntos de Dados em R
 
@@ -13,6 +13,9 @@ Para usar um conjunto de dados, basta digitar seu nome. Cada conjunto já é pr�
 
 ```r
 iris
+```
+Você deve obter uma resposta parecida com o abaixo:
+```
 ##     Sepal.Length Sepal.Width Petal.Length Petal.Width    Species
 ## 1            5.1         3.5          1.4         0.2     setosa
 ## 2            4.9         3.0          1.4         0.2     setosa
@@ -26,3 +29,25 @@ iris
 ## 10           4.9         3.1          1.5         0.1     setosa
 ```
 Contudo, os conjuntos do R não são substitutos para seus próprios dados, os quais você deve aprender como carregar no R. Mas antes de começar, precisamos aprender um pouco sobre o seu *working directory* (diretório de trabalho).
+
+## Diretório de Trabalho
+
+## Arquivos Simples de Texto
+
+### read.table
+
+#### sep
+
+#### header
+
+#### na.strings
+
+#### skip and nrow
+
+#### stringAsFactors
+
+### A Família *read*
+
+#### Links HTML
+
+### Salvando Arquivos Simples de Texto
