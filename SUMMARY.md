@@ -5,7 +5,7 @@
    * [Introdução](introducaomd.md)
 * [Parte 1](Parte 1/README.md)
    * [Primeiros passos com R](Parte 1/massaR.md)
-   * [R, um pouco mais](Parte 1/Rmais.md)
+   * [Operações Básicas](Parte 1/Rmais.md)
    * [Desafios](Parte 1/Rdesafios.md)
 * [Parte 2](Parte 2/README.md)
    * [Shiny, o que é?](Parte 2/IntroShiny.md)
