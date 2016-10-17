@@ -8,7 +8,7 @@
    * [Operações Básicas](Parte 1/Rmais.md)
    * [Desafios](Parte 1/Rdesafios.md)
 * [Parte 2](Parte 2/README.md)
+   * Sua vez
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
-* Sua vez
 
