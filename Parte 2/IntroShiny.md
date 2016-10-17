@@ -3,7 +3,7 @@
 O pacote shiny disponibiliza onze exemplos de aplicativos já construídos que demonstram como o Shiny funciona. Cada exemplo é um aplicativo completo e independente.
 
 ![Exemplo *Hello Shiny*](01_hello.png)
-O exemplo **Hello Shiny** traça o histograma da base `faithful` do R, com um número configurável de divisórias. O usuário pode mudar o número de divisórias com uma barra de deslizamento, e o app responde em tempo real. Vamos utilizar o **Hello Shiny** para explorar a estrutura de um aplicativo Shiny e criar nosso primeiro app.
+O exemplo **Hello Shiny** traça o histograma da base `faithful` do R, com um número configurável de divisórias (*bins*). O usuário pode mudar o número de divisórias com uma barra de deslizamento, e o app responde em tempo real. Vamos utilizar o **Hello Shiny** para explorar a estrutura de um aplicativo Shiny e criar nosso primeiro app.
 
 Para rodar **Hello Shiny**, digite:
 ```r
