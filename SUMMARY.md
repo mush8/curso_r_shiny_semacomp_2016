@@ -10,4 +10,5 @@
 * [Parte 2](Parte 2/README.md)
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
+* Sua vez
 
