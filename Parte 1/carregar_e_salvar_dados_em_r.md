@@ -1,6 +1,6 @@
 # Carregar e Salvar Dados em R
 
-Nesta seção você verá como carregar e salvar dados em R à partir de arquivos simples de texto e planilhas Excel. O R disponibiliza muitas mais possibilidades, como salvar dados em arquivos próprios de R e há pacotes que você pode usar para carregar dados de bancos de dados e outros programas comuns como SAS e MATLAB.
+Nesta seção você verá como carregar e salvar dados em R à partir de arquivos simples de texto. O R disponibiliza muitas mais possibilidades, como salvar e carregar dados em arquivos próprios do R e planilhas Excel. Há diversos pacotes que você pode usar para carregar e salvar dados de bancos de dados (MySQL, SQLite, Oracle, PostgreSQL, etc...) e outros programas comuns como SAS e MATLAB.
 
 ## Conjuntos de Dados em R
 
