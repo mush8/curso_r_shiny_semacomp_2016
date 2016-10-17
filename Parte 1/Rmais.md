@@ -29,7 +29,21 @@ Os comandos do R são feitos de **Expressões** e **Atribuições**. **Expressã
 
 O R opera em [estrutura de dados](https://pt.wikipedia.org/wiki/Estrutura_de_dados). Um **vetor numérico** é a mais simples delas, uma **"coleção ordenada de números"**. Vejamos como funciona a atribuição de um vetor e operações com o mesmo.
 * Para "criar" um vetor utilize: nome_Vetor <- c(v1, v2, v3...) 
-*Aqui estamos utilizando a função c() que coloca seus argumentos em uma coleção, ou seja, concantenando-os.*
+
+![](AtribuindoVetorNum.png)
+
+*Utiliza-se a função c() que coloca seus argumentos em uma coleção, ou seja, concantena-os.*
+* **nome_do_vetor[indice]:** Retorna o valor da posição 'indice' do vetor.
+* **nome_do_vetor <- c(nome_do_vetor, novo_valor):** Forma de adicionar um novo valor ao vetor.
+* **nome_do_vetor <- nome_do_vetor[-c(indice)]:** Forma de retirar o valor da posição 'indice' do vetor.
+* **length(nome_do_vetor):** Retorna a quantidade de valores que seu vetor possui.
+
+![](OperacoesVetores1.png)
+######Console:
+![](ConsoleVetores.png)
+
+
+
 
 
 
