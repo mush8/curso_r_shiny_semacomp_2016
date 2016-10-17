@@ -9,6 +9,11 @@
 * Para interpretar uma linha de código escrita fora do Console, pressione "Ctrl+Enter". Caso tenha mais de uma linha, selecione as linhas desejadas e pressione os mesmos botões.
 
 
+```r
+# Comentários    Minicurso R/Shiny    SEMaComp 2016    20/10/2016
 
+semacomp <- 2016
+SEMACOMP <- 6102
+```
 
 ![](Primeirospassos.png)
