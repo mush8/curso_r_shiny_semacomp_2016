@@ -24,7 +24,6 @@ Os comandos do R são feitos de **Expressões** e **Atribuições**. **Expressã
 * **== ou != :** *Igual* e *Diferente*
 * **& ou | ou ! :** *And* ou *Or* ou *Not*
 * **T ou F :** *True* ou *False
-* 
-* *
+
 
 
