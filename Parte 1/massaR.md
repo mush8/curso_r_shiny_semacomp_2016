@@ -16,4 +16,3 @@ semacomp <- 2016
 SEMACOMP <- 6102
 ```
 
-![](Primeirospassos.png)
