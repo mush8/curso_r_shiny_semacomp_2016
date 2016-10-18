@@ -1,6 +1,6 @@
 #Chega de conversa, mão na massa!
 
-##Operações Básicas com Vetores
+##Operações Básicas e Vetores
 
 ####Expressões e Atribuições
 Os comandos do R são feitos de **Expressões** e **Atribuições**. **Expressão** é quando os valores são computados, executados no prompt e perdidos. Em **Atribuições** temos os valores computados e atribuidos a uma variável.
@@ -58,13 +58,13 @@ pot <- 10 ^ 20```
 
 ####Vetores
 
-O R opera em [estrutura de dados](https://pt.wikipedia.org/wiki/Estrutura_de_dados). Um **vetor numérico** é a mais simples delas, uma **"coleção ordenada de números"**. Vejamos como funciona a atribuição de um vetor e operações com o mesmo.
-* Para "criar" um vetor utilize: nome_Vetor <- c(v1, v2, v3...) 
+O R opera em [estrutura de dados](https://pt.wikipedia.org/wiki/Estrutura_de_dados). Um **vetor numérico** é a mais simples delas, que é uma **"coleção ordenada de números"**. Vejamos como funciona a atribuição de um vetor e operações com o mesmo.
+* Para "criar" um vetor utilize: nome_Vetor <- c(a1, a2, a3...)
 
 ```r
 meuVetor <- c(20.0, 15.65, 15.0, 235.0, 70.1)```
 
-*Utiliza-se a função c() que coloca seus argumentos em uma coleção, ou seja, concantena-os.*
+Perceba que utilizamos a função c(), que coloca seus argumentos em uma coleção, ou seja, **c**oncantena-os.
 * **nome_do_vetor[indice]:** Retorna o valor da posição 'indice' do vetor.
 ```r
 meuVetor[2]
