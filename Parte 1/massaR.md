@@ -25,12 +25,12 @@ R possui embutido um sistema de ajuda. Para obter mais informação sobre uma fu
 ```r
 help(solve)
 ```
-
-Uma alternativa é:
+Outra alternativa é:
 
 ```r
 ?solve
 ```
+Digite estes comandos no console do RStudio e veja os resultados.
 
 Para um recurso especificado por caractéres especiais, o argumento deve ser envolto em aspas duplas ou simples, tornado-o um caracter. Isto também é necessário ára algumas palavras reservadas do R com algum significado sintático, exemplo: `if`, `for` e `function`.
 
@@ -55,3 +55,7 @@ o que irá abrir seu navegador de internet, e permitirá navegar pelas páginas 
 ```
 
 Que trará um resultado diferente ao do comando anterior `?solve`, teste em sua máquina e veja a diferença. Para avançar em seus estudos do R irá precisar usar, e bastante, o `help`. :)
+
+## Executando comandos de arquivos
+
+No RStudio temos a opção de abrir um editor de texto e escrever nosso código. Abrimos um arquivo novo para códigos R no menu `File -> New File -> R script`. Este arquivo nos permite escrever, editar e organizar nosso código (*script*), porém, diferente do console,
