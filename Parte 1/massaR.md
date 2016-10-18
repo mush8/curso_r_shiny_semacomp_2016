@@ -58,4 +58,20 @@ Que trará um resultado diferente ao do comando anterior `?solve`, teste em sua 
 
 ## Executando comandos de arquivos
 
-No RStudio temos a opção de abrir um editor de texto e escrever nosso código. Abrimos um arquivo novo para códigos R no menu `File -> New File -> R script`. Este arquivo nos permite escrever, editar e organizar nosso código (*script*), porém, diferente do console,
+No RStudio temos a opção de abrir um editor de texto e escrever nosso código. Abrimos um arquivo novo para códigos R no menu `File -> New File -> R script`. Este arquivo nos permite escrever, editar e organizar nosso código (*script*), porém, diferente do console, os comandos não são executados ao apertar `Enter`. Para executar os comandos em um arquivo de texto há várias formas, a mais simples é colocar seu cursor na linha do comando que deseja executar e apertar `Ctrl + Enter`.
+
+Uma outra forma é clicar no botão `Source` disponibilizado no canto superior direito do seu painel do editor de texto. Esta opção irá executar todos os comandos do seu arquivo, não só uma linha.
+
+Uma outra forma utilizada, normalmente para programas mais complexos, é a função `source`. Esta função recebe como parâmetro o nome de um arquivo (incluso seu caminho referencial à partir de seu diretório de trabalho - veremos isto mais adiante). Considerando um exemplo, em que teriamos um arquivo chamado `comandos.R` em nosso diretório de trabalho, podemos executa-lo com o seguinte comando:
+
+```r
+source("comandos.R")
+```
+
+O comando `source` executa seu arquivo de forma silenciosa, ou seja, não mostra resultado algum da compilação do arquivo. Caso queira ver o resultado da execução, basta acrescentar a opção `echo= TRUE`, conforme abaixo::
+
+```r
+source("comandos.R", echo=TRUE)
+```
+
+Vamos agora para o próximo capítulo e começar a criar nossos primeiros *scripts*!
