@@ -5,7 +5,7 @@
 ####Expressões e Atribuições
 Os comandos do R são feitos de **Expressões** e **Atribuições**. **Expressão** é quando os valores são computados, executados no prompt e perdidos. Em **Atribuições** temos os valores computados e atribuidos a uma variável.
 
-<!-- Oi Bruno, isto é um comentário. Abaixo é um bloco de código com colorido para r. Se quiser usar para seus exemplos. -->
+Veja dois exemplos abaixo:
 
 ```r
 #Expressão
