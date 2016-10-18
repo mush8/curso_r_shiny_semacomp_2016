@@ -1,7 +1,7 @@
 # Summary
 
 * [Começando](README.md)
-   * [Instalando R e RStudio](InstalandoR.md)
+   * [Instalando R, RStudio e Shiny](InstalandoR.md)
    * [Introdução](introducaomd.md)
 * [Parte 1](Parte 1/README.md)
    * [Primeiros passos com R](Parte 1/massaR.md)
