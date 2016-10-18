@@ -6,6 +6,7 @@
 * [Parte 1](Parte 1/README.md)
    * [Primeiros passos com R](Parte 1/massaR.md)
    * [Operações Básicas com vetores](Parte 1/Rmais.md)
+   * Operações com matrizes e dataframes
    * [Carregar e Salvar Dados em R](Parte 1/carregar_e_salvar_dados_em_r.md)
    * [Desafios](Parte 1/Rdesafios.md)
 * [Parte 2](Parte 2/README.md)
@@ -13,5 +14,4 @@
    * [Sua vez](Parte 2/sua_vez.md)
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Desafios](Parte 2/desafios.md)
-* Operações com matrizes e dataframes
 
