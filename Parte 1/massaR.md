@@ -48,4 +48,10 @@ Na marioria das instalações de R um sistema geral de ajuda está disponível, 
 help.start()
 ```
 
-o que irá abrir seu navegador de internet, e permitirá navegar pelas páginas de ajuda com tutoriais e informações técnicas da linguagem. Na página de ajuda há também um "Motor de Busca" muito útil, pois contém acesso à todo o sistema CRAN, podendo ser usado para obter conhecimento amplo sobre a linguagem R e seus pacotes.
+o que irá abrir seu navegador de internet, e permitirá navegar pelas páginas de ajuda com tutoriais e informações técnicas da linguagem. Na página de ajuda há também um "Motor de Busca" muito útil, pois contém acesso à todo o sistema CRAN, podendo ser usado para obter conhecimento amplo sobre a linguagem R e seus pacotes. Pode acessar o motor de busca diretamente do R com o seguinte comando:
+
+```r
+??solve
+```
+
+Que trará um resultado diferente ao do comando anterior `?solve`, teste em sua máquina e veja a diferença. Para avançar em seus estudos do R irá precisar usar, e bastante, o `help`. :)
