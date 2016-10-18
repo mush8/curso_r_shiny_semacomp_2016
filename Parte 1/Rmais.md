@@ -80,7 +80,8 @@ meuVetor <- meuVetor[-c(1)]```
 * **length(nome_do_vetor):** Retorna a quantidade de valores que seu vetor possui.
 ```r
 length(meuVetor)
-> 5```
+> 5
+```
 
 #####Também podemos atribuir um Vetor de Caracteres:
 ```r
