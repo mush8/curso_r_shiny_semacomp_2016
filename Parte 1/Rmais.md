@@ -91,7 +91,8 @@ meuVetor <- c(meuVetor, 2016.0)
 meuVetor[6]
 > 2016.0 # resposta prevista
 ```
-* **nome_do_vetor <- nome_do_vetor[-indice]** ou **nome_do_vetor <- nome_do_vetor[-c(indices)]:** Forma de retirar o valor da posição 'indice' do vetor.
+* **nome_do_vetor <- nome_do_vetor[-indice]:** Forma de eliminar o valor da posição 'indice' do vetor ou
+* **nome_do_vetor <- nome_do_vetor[-c(indices)]:** Forma de eliminar os valores das posições 'indices' do vetor.
 ```r
 meuVetor <- meuVetor[-c(1, 2)]
 ```
