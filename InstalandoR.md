@@ -1,4 +1,4 @@
-# Instalando R e RStudio e Shiny
+# Instalando R, RStudio e Shiny
 
 Para iniciar com R você primeiro precisa adquirir uma cópia. R e RStudio são ambos gratuitos.
 
