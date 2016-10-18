@@ -1,8 +1,8 @@
 #Chega de conversa, mão na massa!
 
-##Operações Básicas e Vetores
+#Operações Básicas e Vetores
 
-####Expressões e Atribuições
+## Expressões e Atribuições
 Os comandos do R são feitos de **Expressões** e **Atribuições**. **Expressão** é quando os valores são computados, executados no prompt e perdidos. Em **Atribuições** temos os valores computados e atribuidos a uma variável.
 
 Veja dois exemplos abaixo:
@@ -19,7 +19,7 @@ SEMaComp <- 20 + 10 * 2016
 ---
 
 
-####Atribuindo valores e operações básicas
+## Atribuindo valores e operações básicas
 * **Atribuir valor:** Para atribuir um valor a uma variável: nomeie-a e utilize '<-' antes do valor.
 ```r
 minhaVariavel <- 10
@@ -53,7 +53,7 @@ pot <- 10 ** 20
 ---
 
 
-####Operações Lógicas
+## Operações Lógicas
 * **> ou >= :** *Maior* ou *Maior ou Igual*
 * **< ou <= :** *Menor* ou *Menor ou Igual*
 * **== ou != :** *Igual* ou *Diferente*
@@ -64,9 +64,9 @@ pot <- 10 ** 20
 ---
 
 
-####Vetores
+## Vetores
 
-O R opera em [estrutura de dados](https://pt.wikipedia.org/wiki/Estrutura_de_dados). Um **vetor numérico** é a mais simples delas, que é uma **"coleção ordenada de números"**. Vejamos como funciona a atribuição de um vetor e operações com o mesmo.
+O R opera em [estruturas de dados](https://pt.wikipedia.org/wiki/Estrutura_de_dados). Um **vetor numérico** é a mais simples delas, que é uma **"coleção ordenada de números"**. Vejamos como funciona a atribuição de um vetor e operações com o mesmo.
 * Para "criar" um vetor utilize: nome_Vetor <- c(a1, a2, a3...)
 
 ```r
@@ -96,7 +96,8 @@ length(meuVetor)
 > 5
 ```
 
-#####Também podemos atribuir um Vetor de Caracteres:
+### Também podemos atribuir um Vetor de Caracteres
+
 ```r
 vetorChar <- c("Ricardo", "Bruno", "Alexandre", "Camila")
 ```
