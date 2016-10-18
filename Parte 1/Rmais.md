@@ -84,7 +84,8 @@ Para vetores temos algumas operações iniciais importantes, que são as seguint
 meuVetor[2]
 > 15.65 # resposta prevista
 ```
-*Diferente da linguagem C, na liguagem R o vetor começa no índice 1 e não em 0.*
+*Observação: Diferente da linguagem C, na liguagem R o vetor começa no índice 1 e não em 0.*
+
 * **nome_do_vetor <- c(nome_do_vetor, novo_valor):** Forma de adicionar um novo valor ao vetor.
 ```r
 meuVetor <- c(meuVetor, 2016.0)
@@ -108,8 +109,23 @@ length(meuVetor)
 vetorChar <- c("Ricardo", "Bruno", "Alexandre", "Camila")
 ```
 
+### Vetores mistos
 
+```r
+vetorMix <- c("Ricardo", 12.5, 10, "Bruno")
+```
 
-  
+## Exercícios
 
+Experimente com os códigos abaixo e responda as perguntas, para você mesmo.
 
+```r
+x <- c(20.0, 15.65, 15.0, 235.0, 70.1)
+1/x
+```
+Qual é o resultado de `1/x`?
+
+```r
+x <- c(x, 0, x)
+```
+Quantos elementos o novo vetor `x` terá?
