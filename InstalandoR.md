@@ -34,7 +34,7 @@ R não é um programa, é uma linguagem de programação, como C, C++, Python ou
 Você pode fazer download gratuíto aqui: [RStudio](https://www.rstudio.com/products/rstudio/).
 Basta clicar em "Download RStudio" e seguir as instruções da instalação.
 
-Quando abrir o RStudio, uma janela com três paineis nela irá aparecer, como na figura abaixo. 
+Quando abrir o RStudio, uma janela com três paineis irá aparecer, como na figura abaixo. 
 
 ![Primeira vez no RStudio](A1.jpg)
 O painel maior à esquerda é o *console* (janela de comandos), aqui é onde irá processar comandos de R e ver os resultados. Essa janela é exatamente se você estivesse rodando o R por um terminal, todas as outras janelas são únicas do RStudio. Nele você pode ter um editor de texto, uma janela gráfica, um *debugger* (depurador), um gerenciador de arquivos, etc. Utilizando-o você irá familiarizando-se com as posibilidades, não tenha medo de explorar.
