@@ -76,6 +76,9 @@ meuVetor <- c(20.0, 15.65, 15.0, 235.0, 70.1)
 ```
 
 Perceba que utilizamos a função c(), que coloca seus argumentos em uma coleção, ou seja, **c**oncantena-os.
+
+Para vetores temos algumas operações iniciais importantes, que são as seguintes:
+
 * **nome_do_vetor[indice]:** Retorna o valor da posição 'indice' do vetor.
 ```r
 meuVetor[2]
@@ -88,14 +91,14 @@ meuVetor <- c(meuVetor, 2016.0)
 meuVetor[6]
 > 2016.0
 ```
-* **nome_do_vetor <- nome_do_vetor[-c(indice)]:** Forma de retirar o valor da posição 'indice' do vetor.
+* **nome_do_vetor <- nome_do_vetor[-indice]** ou **nome_do_vetor <- nome_do_vetor[-c(indices)]:** Forma de retirar o valor da posição 'indice' do vetor.
 ```r
-meuVetor <- meuVetor[-c(1)]
+meuVetor <- meuVetor[-c(1, 2)]
 ```
 * **length(nome_do_vetor):** Retorna a quantidade de valores que seu vetor possui.
 ```r
 length(meuVetor)
-> 5
+> 4
 ```
 
 ### Também podemos atribuir um Vetor de Caracteres
