@@ -82,14 +82,14 @@ Para vetores temos algumas operações iniciais importantes, que são as seguint
 * **nome_do_vetor[indice]:** Retorna o valor da posição 'indice' do vetor.
 ```r
 meuVetor[2]
-> 15.65
+> 15.65 # resposta prevista
 ```
 *Diferente da linguagem C, na liguagem R o vetor começa no índice 1 e não em 0.*
 * **nome_do_vetor <- c(nome_do_vetor, novo_valor):** Forma de adicionar um novo valor ao vetor.
 ```r
 meuVetor <- c(meuVetor, 2016.0)
 meuVetor[6]
-> 2016.0
+> 2016.0 # resposta prevista
 ```
 * **nome_do_vetor <- nome_do_vetor[-indice]** ou **nome_do_vetor <- nome_do_vetor[-c(indices)]:** Forma de retirar o valor da posição 'indice' do vetor.
 ```r
@@ -98,7 +98,7 @@ meuVetor <- meuVetor[-c(1, 2)]
 * **length(nome_do_vetor):** Retorna a quantidade de valores que seu vetor possui.
 ```r
 length(meuVetor)
-> 4
+> 4 # resposta prevista
 ```
 
 ### Também podemos atribuir um Vetor de Caracteres
