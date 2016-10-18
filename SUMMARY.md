@@ -13,4 +13,5 @@
    * [Sua vez](Parte 2/sua_vez.md)
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Desafios](Parte 2/desafios.md)
+* Operações com matrizes e dataframes
 
