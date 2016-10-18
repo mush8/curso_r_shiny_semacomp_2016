@@ -13,7 +13,9 @@ Veja dois exemplos abaixo:
 #Atribuição
 SEMaComp <- 20 + 10 * 2016
 ```
+Ah! Os comando de texto podem ser escritos tanto no console do RStudio ou no editor de texto. Quem estiver utilizando o editor de texto, terá acesso à todos seus comandos já compilados anteriormente, basta mover o cursor até a linha e clicar `Ctrl + Enter` para rodar novamente.
 
+Caso esteja utilizando o console, fica uma dica, os comandos compilados anteriormente podem ser acessados com as setas do teclado. Utilizando as setas para cima e para baixo você navega nos comandos anteriores, e pode edita-los e/ou roda-los novamente.
 
 
 ---
