@@ -13,10 +13,10 @@ O exemplo **Hello Shiny** traça o histograma da base `faithful` do R, com um n�
 
 Para rodar **Hello Shiny**, digite:
 
-```r
-library(shiny)
-runExample("01_hello")
-```
+  ```r
+  library(shiny)
+  runExample("01_hello")
+  ```
 
 ## Estrutura de um aplicativo Shiny
 
@@ -27,59 +27,59 @@ Aplicativos Shiny possuem dois componentes:
 O código da interface de usuário (**ui**) controla o aspecto visual (*layout*) de seu aplicativo. Ele é definido em um código fonte com nome `ui.R`. Aqui está o código `ui.R` do exemplo **Hello Shiny**.
 
 #### ui.R
-```r
-library(shiny)
+  ```r
+  library(shiny)
 
-# Define um UI para aplicação que desenha um histograma
-shinyUI(fluidPage(
+  # Define um UI para aplicação que desenha um histograma
+  shinyUI(fluidPage(
 
-  # Título do aplicativo
-  titlePanel("Hello Shiny!"),
+    # Título do aplicativo
+    titlePanel("Hello Shiny!"),
 
-  # Barra lateral com uma entrada de barra deslizante (slider) para o número de divisórias
-  sidebarLayout(
-    sidebarPanel(
-      sliderInput("divisorias",
-                  "Número de divisórias:",
-                  min = 1,
-                  max = 50,
-                  value = 30)
-    ),
+    # Barra lateral com uma entrada de barra deslizante (slider) para o número de divisórias
+    sidebarLayout(
+      sidebarPanel(
+        sliderInput("divisorias",
+                    "Número de divisórias:",
+                    min = 1,
+                    max = 50,
+                    value = 30)
+      ),
 
-    # Show a plot of the generated distribution
-    mainPanel(
-      plotOutput("distPlot")
+      # Show a plot of the generated distribution
+      mainPanel(
+        plotOutput("distPlot")
+      )
     )
-  )
-))
-```
+  ))
+  ```
 
 Já o código `server.R` contém as instruções que o computador precisa para construir o seu app. Aqui está o código `server.R` para **Hello Shiny**:
 
 #### server.R
 
-```r
-library(shiny)
+  ```r
+  library(shiny)
 
-# Define a lógica do server necessária para desenhar o histograma
-shinyServer(function(input, output) {
+  # Define a lógica do server necessária para desenhar o histograma
+  shinyServer(function(input, output) {
 
-  # Expressão que gera o histograma. A expressão é
-  # envolta em uma chamada de renderPlot para indicar que:  
-  #
-  #  1) Ela é "reativa" portanto deve ser re-executada automaticamente
-  #     quando uma entrada (input) muda
-  #  2) Sua saída (output) é um gráfico
-  
-  output$distPlot <- renderPlot({
-    x    <- faithful[, 2]  # Old Faithful Geyser data
-    bins <- seq(min(x), max(x), length.out = input$divisorias + 1)
+    # Expressão que gera o histograma. A expressão é
+    # envolta em uma chamada de renderPlot para indicar que:  
+    #
+    #  1) Ela é "reativa" portanto deve ser re-executada automaticamente
+    #     quando uma entrada (input) muda
+    #  2) Sua saída (output) é um gráfico
 
-    # draw the histogram with the specified number of bins
-    hist(x, breaks = bins, col = 'darkgray', border = 'white')
+    output$distPlot <- renderPlot({
+      x    <- faithful[, 2]  # Old Faithful Geyser data
+      bins <- seq(min(x), max(x), length.out = input$divisorias + 1)
+
+      # draw the histogram with the specified number of bins
+      hist(x, breaks = bins, col = 'darkgray', border = 'white')
+    })
   })
-})
-```
+  ```
 
 O código `server.R` de **Hello Shiny** basicamente, realiza uns cálculos e traça um histograma com o número de divisórias requerido. Perceba que a maior parte do código está envolto em uma função `renderPlot`. O comentário acima da função explica um pouco sobre ela, se você acha confuso, não se preocupe. Nos veremos este conceito em mais detalhe.
 
@@ -95,10 +95,10 @@ Em versões mais recentes é possível criar aplicativos Shiny em um único arqu
 
 Você pode compilar um aplicativo Shiny fornecendo o nome da pasta para a função `runApp`. Por exemplo, se tivessemos uma pasta chamada `meu_app`, posso compilar o aplicativo dentro dela com o código abaixo:
 
-```r
-library(shiny)
-runApp("meu_app")
-```
+  ```r
+  library(shiny)
+  runApp("meu_app")
+  ```
 
 No caso de você estiver devaneando, o aplicativo **Hello Shiny** é salvo em um diretório especial chamado `"01_hello"`. Este diretório é especial pois funciona com a chamada da função `runExample ("01_hello")`.
 
@@ -106,21 +106,21 @@ No caso de você estiver devaneando, o aplicativo **Hello Shiny** é salvo em um
 
 Você pode criar aplicativos Shiny copiando e modificando aplicativos existentes. A [galeria](http://shiny.rstudio.com/gallery/) Shiny fornece bons exemplos, ou você pode explorar os onze exemplos disponíveis no pacote Shiny listados abaixo.
 
-```r
-system.file("examples", package="shiny")
+  ```r
+  system.file("examples", package="shiny")
 
-runExample("01_hello") # um histograma
-runExample("02_text") # tabelas e data frames
-runExample("03_reactivity") # uma expressão reativa
-runExample("04_mpg") # variáveis globais
-runExample("05_sliders") # barras deslizantes
-runExample("06_tabsets") # painéis tabulados
-runExample("07_widgets") # texto de ajuda e botões de submissão
-runExample("08_html") # Aplicativo Shiny contruído do HTML
-runExample("09_upload") # mago para upload de arquivos
-runExample("10_download") # magoo para download de arquivo
-runExample("11_timer") # um cronômetro automatizado
-```
+  runExample("01_hello") # um histograma
+  runExample("02_text") # tabelas e data frames
+  runExample("03_reactivity") # uma expressão reativa
+  runExample("04_mpg") # variáveis globais
+  runExample("05_sliders") # barras deslizantes
+  runExample("06_tabsets") # painéis tabulados
+  runExample("07_widgets") # texto de ajuda e botões de submissão
+  runExample("08_html") # Aplicativo Shiny contruído do HTML
+  runExample("09_upload") # mago para upload de arquivos
+  runExample("10_download") # magoo para download de arquivo
+  runExample("11_timer") # um cronômetro automatizado
+  ```
 
 Cada exemplo abaixo representa uma possibilidade interessante para desenvolvimento de aplicativos. Não se preocupe caso não entenda extamente cada código, aprofundaremos alguns deles mais adiante, mas sinta-se à vontade de perguntar aos monitores.
 
