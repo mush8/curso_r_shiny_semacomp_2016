@@ -1,5 +1,11 @@
 # Shiny, como começo?
 
+Este tutorial tem como pretensão te ensinar a construir um aplicativo Shiny básico. Para isso vamos ir passo-a-passo para entender as principais funções já presentes no pacote, como fazer seu aplicativo reativo e como publicar os aplicativos Shiny que criar. :D Com este tutorial seus aplicativos não serão muito bonitos ou emocionantes, no começo, mas podem ser bem úteis!
+
+E um aspecto muito, mas muito, legal do R é a sua comunidade. Você facilmente encontra toneladas de material para aprofundar o quanto quiser, normalmente de graça, na internet. O tutorial oficial do Shiny é excelente, inclusive, serviu de base de boa parte deste material. O site oficial é [http://shiny.rstudio.com/](http://shiny.rstudio.com/).
+
+## Trabalhando com exemplos
+
 O pacote shiny disponibiliza onze exemplos de aplicativos já construídos que demonstram como o Shiny funciona. Cada exemplo é um aplicativo completo e independente.
 
 ![Exemplo *Hello Shiny*](01_hello.png)
