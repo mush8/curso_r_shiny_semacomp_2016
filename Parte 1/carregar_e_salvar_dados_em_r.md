@@ -80,6 +80,8 @@ summary(semacomp_iris)
 
 2) Que outros argumentos a função `read.table` possui? e, basicamente, o que cada um faz?
 
+3) Passamos rapidamente a função `write.csv` por praticidade, porém há também a função `write.table`, qual é a diferença entre as duas funções?
+4) 
 ## Fim da Parte 1
 
 Se chegou até aqui, parabéns! Você pode agora respirar um pouco, olhe ao seu redor, ajude algum companheiro. E espere o desafio ;D
