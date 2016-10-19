@@ -6,6 +6,7 @@ O pacote shiny disponibiliza onze exemplos de aplicativos já construídos que d
 O exemplo **Hello Shiny** traça o histograma da base `faithful` do R, com um número configurável de divisórias (*bins*). O usuário pode mudar o número de divisórias com uma barra de deslizamento, e o app responde em tempo real. Vamos utilizar o **Hello Shiny** para explorar a estrutura de um aplicativo Shiny e criar nosso primeiro app.
 
 Para rodar **Hello Shiny**, digite:
+
 ```r
 library(shiny)
 runExample("01_hello")
@@ -17,7 +18,7 @@ Aplicativos Shiny possuem dois componentes:
 * um *script* para interface do usuário
 * um *script* de servidor
 
-O código da interface de usuário (**ui**) controla o aspecto visual (*layout*) de seu aplicativo. Ele é definido em um código fonte com nome `ui.R`. Aqui está o código `ui.R` de **Hello Shiny**.
+O código da interface de usuário (**ui**) controla o aspecto visual (*layout*) de seu aplicativo. Ele é definido em um código fonte com nome `ui.R`. Aqui está o código `ui.R` do exemplo **Hello Shiny**.
 
 #### ui.R
 ```r
@@ -116,3 +117,6 @@ runExample("11_timer") # um cronômetro automatizado
 ```
 
 Cada exemplo abaixo representa uma possibilidade interessante para desenvolvimento de aplicativos. Não se preocupe caso não entenda extamente cada código, aprofundaremos alguns deles mais adiante, mas sinta-se à vontade de perguntar aos monitores.
+
+**1) Abra alguns dos exemplos e identifique algumas funções de *input* (semelhantes à função `sliderInput` vista em _Hello Shiny_). O que essa funções encontradas constroem? **
+*Faremos esta juntos durante o curso. :)*
