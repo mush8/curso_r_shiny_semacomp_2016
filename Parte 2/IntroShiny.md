@@ -125,4 +125,5 @@ runExample("11_timer") # um cronômetro automatizado
 Cada exemplo abaixo representa uma possibilidade interessante para desenvolvimento de aplicativos. Não se preocupe caso não entenda extamente cada código, aprofundaremos alguns deles mais adiante, mas sinta-se à vontade de perguntar aos monitores.
 
 **1) Abra alguns dos exemplos e identifique algumas funções de *input* (semelhantes à função `sliderInput` vista em _Hello Shiny_). O que essa funções encontradas constroem? **
-*Faremos esta juntos durante o curso. :)*
+
+*Este link pode ajudar: [http://shiny.rstudio.com/reference/shiny/latest/](http://shiny.rstudio.com/reference/shiny/latest/)* ;)
