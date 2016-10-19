@@ -72,11 +72,13 @@ Perceba que o arquivo criado é um *.csv*, ou seja as células estão separadas 
 
 ```r
 semacomp_iris <- read.table("iris.csv", sep = ",", header = TRUE)
+semacomp_iris
+summary(semacomp_iris)
 ```
 
-#### sep
+1) Agora, explique-se o que o argumento `sep` e `header` definem na função `read.table`?
 
-#### header
+2) Que outros argumentos a função `read.table` possui? e, basicamente, o que cada um faz?
 
 #### na.strings
 
