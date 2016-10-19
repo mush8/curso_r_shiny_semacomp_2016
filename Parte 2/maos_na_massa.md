@@ -20,3 +20,4 @@ Tendo o arquivo criado, vamos iniciar com a estrutura base para qualquer aplicat
   shinyApp(ui = ui, server = server)
   ```
 
+Veja que, como incluímos nosso *script* em um único arquivo temos uma nova função `shinyApp(ui = ui, server = server)`
