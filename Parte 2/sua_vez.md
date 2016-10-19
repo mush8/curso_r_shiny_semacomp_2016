@@ -1,4 +1,4 @@
-# Sua vez
+# Um pouco de motivação
 
 Inicialmente, vimos os exemplos do pacote, que são aplicativos bem simples, ao menos, em relação ao visual. Para que não desanime, e possa ver as possibilidades de desing e personalização, acesse este link: [https://www.rstudio.com/products/shiny/shiny-user-showcase/](https://www.rstudio.com/products/shiny/shiny-user-showcase/).
 
