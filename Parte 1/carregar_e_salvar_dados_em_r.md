@@ -32,9 +32,47 @@ Contudo, os conjuntos do R não são substitutos para seus próprios dados, os q
 
 ## Diretório de Trabalho
 
+Cada vez que você abre o R, ele se conecta à um diretório em seu computador, o qual R chama de diretório de trabalho (*working directory*). É onde o R irá procurar pro arquivos quando você tentar carrega-los, e é onde o R irá salbar arquivos quando você mandar salva-los. O local de seu diretório de trabalho irá variar de computador para computador. Para determinar qual é o seu diretório do R, use:
+
+```r
+getwd()
+```
+
+Você pode colocar arquivos de dados diretamente na pasta de seu diretório, ou você pode mover seu diretório de trabalho para onde seus arquivos de dados estão. Você pode mover seu diretório de trabalho para qualquer pasta em seu computador com a função `setwd`. Somente dê para a função `setwd` o caminho para seu novo diretório de trabalho. Eu prefiro definir meu diretório de trabalho em uma pasta dedicada ao projeto no qual estou trabalhando no momento. Dessa forma eu mantenho todos os meus dados, códigos, gráficos, e relatórios em um mesmo lugar. Por exemplo:
+
+```r
+setwad("~/Users/ricardo/Documents/git_book_curso_semacomp2016")
+```
+No Linux, se o caminho que passar como argumento não iniciar em seu *root*, pasta raíz (é o `~` do endereço acima), o R irá assumir que o endereço dado inicia-se no seu atual diretório de trabalho.
+
+Você pode mudar seu diretório de trabalho clicando em `Session > Set Working Directory > Choose Directory" no menu do RStudio.
+
+Você pode ver quais arquivos estão em seu diretório de trabalho com a função `list.files()`. Se você ver aquele arquivo que quer abrir com este comando, pode abri-lo, pois está no seu diretório. Como abrir seus arquivos é o que veremos agora. :D
+
 ## Arquivos Simples de Texto
 
+Arquivos de texto é um dos mais comuns meios de salvar dados. Eles são bem simples e podem ser lidos de diversas formas diferentes. Por esta razão, dados públicos (exceto no Brasil) são colocados neste formato... ou seja, nos Estados Unidos, Europa e grande maioria dos países faz isso. 0o'
+
+Um arquivo de texto simples armazena uma tabela de dados em um documento de texto. Cada linha da tabela é salva em sua própria linha, e uma simples convenção é usada para separar as células em cada linha. Muitas vezes as células são separadas por vírgulas, mas podem também ser separadas por tabulações ("\t"), delimitador *pipe* ("|"), ou qualquer outro caracter. O importante é que cada arquivo utilize um método único para separar células, de forma a minimizar a confusão. Dentro de cada célula, os dados aparece como seria de esperar para vê-lo, como palavras e números.
+
+Todos os arquivos de texto simples podem ser salvos com uma extensão *.txt* (de texto), mas há também alguns que recebem extensões especiais que avisam como suas células estão separadas. Como mencionamos antes, se os dados estão separados por vírgulas, a extensão normalmente é *.csv* (de *comma-separated-values*).
+
 ### read.table
+
+Para carregar um arquivo de texto, use o comando `read.table`. O primeiro argumento da função deve ser o nome do arquivo (se estiver em seu diretório de trabalho), ou o caminho até o arquivo (se não estiver no seu diretório de trabalho). Se o caminho do arquivo não começa com seu diretório raíz (*root*), R irá anexa o caminho ao final do caminho que direciona para seu diretório de trabalho. Você pode dar à função read.table outros argumentos também. Os dois mais importantes são `sep` e `header`.
+
+Algo que podemos fazer, para testar nosso potencial de carregar arquivos é, primeiro, salvar um arquivo. Portanto, vamos salvar, com a função `write.csv` o conjunto de dados `iris` visto anteriormente.
+
+```r
+write.csv(iris, "iris.csv", row.names = FALSE)
+```
+
+Após processar este comando rode `list.files()` e confirme se o arquivo `iris.csv` foi criado. Se sim, podemos brincar agora de carrega-lo.
+Perceba que o arquivo criado é um *.csv*, ou seja as células estão separadas por vírgulas, então o argumento **sep** de nossa função `read.table` irá receber `sep = ","`. E sabemos que o data frame `iris` possui cabeçalhos, e estes cabeçalhos foram escritos juntos no arquivo criado, logo o argumento **header** irá receber `header = TRUE`. Com isso teremos como carregar nossos dados para um novo data frame, por exemplo, de nome `semacomp_iris`:
+
+```r
+semacomp_iris <- read.table("iris.csv", sep = ",", header = TRUE)
+```
 
 #### sep
 
