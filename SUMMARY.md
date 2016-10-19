@@ -11,7 +11,7 @@
    * [Desafio](Parte 1/Rdesafios.md)
 * [Parte 2](Parte 2/README.md)
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
-   * [Um pouco de motivação](Parte 2/sua_vez.md)
+   * [Um pouco de motivação](Parte 2/motivac.md)
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Desafio](Parte 2/desafios.md)
 
