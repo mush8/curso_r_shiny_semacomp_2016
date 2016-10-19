@@ -49,16 +49,16 @@ A linguagem R já oferece uma extensa gama de funções para utilizar. Estas fun
 
 Os pacotes do R juntam funções úteis, arquivos de ajuda, e bases de dados. Uma vez que você carregue o pacote para o seu programa poderá utilizar as funções implementadas neles. Neste treinamento focaremos em um pacote específico, o **shiny**, mas como todos os outros pacotes da linguagem R, iremos utilizar um comando do próprio R `install.packages()` para instala-lo. No console do RStudio, digite o comando abaixo:
 
-```
-install.packages("shiny")
-```
+  ```
+  install.packages("shiny")
+  ```
 Este comando irá procurar por um pacote específico na coleção de pacotes disponível no site CRAN. Qando o encontrar, irá realizar o download para a pasta de bibliotecas dp R em seu computador. Assim o R poderá acessar o pacote em futuras sessões, sem necessidade de reinstalar. Um ponto, importante de atenção, qualquer um pode escrever um pacote de R e compartilha-lo como quiser. Mas praticamente todos os pacotes são publicados através do CRAN, onde testam todos os pacotes antes de publica-los. Isto não elimina todos os *bugs* (erros) internos do pacote, mas te dá mais confiança para rodar um pacote.
 
 Caso se interesse/precise, pode instalar vários pacotes de uma vez, com a função de **concatenação** do R, `c`. Por exemplo,
 
-```
-install.packages(c("ggplot2", "reshape2", "dplyr"))
-```
+  ```
+  install.packages(c("ggplot2", "reshape2", "dplyr"))
+  ```
 
 Na sua primeira instação de pacotes, R irá perguntar de qual origem (*"mirror"*) deseja instalar. Os *mirrors* são classificados por localização, e o *download* supoem-se mais rápido de *mirrors* mais próximos. O *mirror* principal é o da Austria, nele são disponibilizados os pacotes novos e replicados para os outros em alguns dias.
 
