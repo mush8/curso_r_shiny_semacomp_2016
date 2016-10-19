@@ -13,6 +13,5 @@
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
    * [Um pouco de motivação](Parte 2/motivac.md)
    * [Aprofundando](Parte 2/aprofundando.md)
-       * Mãos na massa
    * [Desafio](Parte 2/desafios.md)
 
