@@ -85,7 +85,7 @@ O código `server.R` de **Hello Shiny** basicamente, realiza uns cálculos e tra
 
 Brinque um pouco com o aplicativo **Hello Shiny** e analise o código. Tente ligar o código com o visual e funcionalidades do aplicativo.
 
-Todo aplicativo Shiny é mantido em funcionamento por um computador processando R. Ou seja, enquanto seu aplicativo **Hello Shiny** estiver ativo, sua sessão de R permanecerá ocupada. Logo você não conseguira compilar nenhum comando de R. Isso se deve ao fato do R estar monitorando seu aplicativo e executando as reações requeridas no aplicativo. Para recuperar sua sessão, o que fechará seu app, pressione `Esc` (escape) ou clique no ícone de stop (encontrado no canto superior direito do seu painel de console no RStudio).
+Todo aplicativo Shiny é mantido em funcionamento por um computador processando R. Ou seja, enquanto seu aplicativo **Hello Shiny** estiver ativo, sua sessão de R permanecerá ocupada, e você não conseguira compilar nenhum comando de R. Isso se deve ao fato do R estar monitorando seu aplicativo e executando as reações requeridas no aplicativo. Para recuperar sua sessão pressione `Esc` (escape) ou clique no ícone de stop (encontrado no canto superior direito do seu painel de console no RStudio).
 
 ## Compilando um App
 
