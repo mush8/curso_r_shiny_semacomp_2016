@@ -133,5 +133,5 @@ Caso não tenha entendido bem, não se preocupe. O primeiro passo é ver que exi
 
 O que é um data frame no R? Tecnicamente, um data frame é uma lista com classe `"data.frame"`. Ué! Parece que vimos algo semelhante entre `array` e `matrix` né? O interessante dos data frames são sua capacidade de ser considerado para muitas finalidades como uma matriz com colunas possivelmente de diferentes modos e atributos. Ele pode ser exibido de forma semalhante à matriz, e suas linhas e colunas extraídas utilizando as convenções vistas para matrizes.
 
-O data frame é uma estrutura muito poderosa, e pode ser bem complicada de se entender todas sua possibilidades. Então iremos focar aqui somente como cria-las, pois isso poderá ajudar futuramente.
+O data frame é uma estrutura muito poderosa, e pode ser bem complicada de se entender todas sua possibilidades. Então iremos focar aqui somente como cria-las, pois isso poderá ajudar na próxima lição.
 
