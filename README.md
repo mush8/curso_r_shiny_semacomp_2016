@@ -2,7 +2,7 @@
 
 Bem vindo(a) ao treinamento *Introdução ao R e Shiny* na **SEMaComp 2016**. Este material foi desenvolvido para o treinamento ministrado durante nossa programação no *Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo*.
 
-Este material é um compilado de diversas fontes, como:
+Este material é um compilado de diversas fontes:
 
 [1] GROLEMUND, Garrett. **Hands-On Programming with R: Write Your Own Functions and Simulations.** O'Reilly Media, Inc., 2014.
 
