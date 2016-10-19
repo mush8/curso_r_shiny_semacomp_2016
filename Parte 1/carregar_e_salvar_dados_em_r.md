@@ -14,7 +14,7 @@ Para usar um conjunto de dados, basta digitar seu nome. Cada conjunto já é pr�
 ```r
 iris
 ```
-Você deve obter uma resposta parecida com o abaixo:
+Você deve obter uma resposta parecida com o abaixo: (observação: é um data frame) ;)
 ```
 ##     Sepal.Length Sepal.Width Petal.Length Petal.Width    Species
 ## 1            5.1         3.5          1.4         0.2     setosa
