@@ -14,4 +14,5 @@
    * [Um pouco de motivação](Parte 2/motivac.md)
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Desafio](Parte 2/desafios.md)
+* Mãos na massa!
 
