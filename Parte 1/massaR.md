@@ -9,12 +9,12 @@
 * Para interpretar uma linha de código escrita fora do Console, pressione "Ctrl+Enter". Caso tenha mais de uma linha, selecione as linhas desejadas e pressione os mesmos botões.
 
 
-```r
-# Comentários    Minicurso R/Shiny    SEMaComp 2016    20/10/2016
+  ```r
+  # Comentários    Minicurso R/Shiny    SEMaComp 2016    20/10/2016
 
-semacomp <- 2016
-SEMACOMP <- 6102
-```
+  semacomp <- 2016
+  SEMACOMP <- 6102
+  ```
 
 ## Obtendo ajuda com funções e recursos
 
@@ -22,37 +22,37 @@ SEMACOMP <- 6102
 
 R possui embutido um sistema de ajuda. Para obter mais informação sobre uma função específica, por exemplo `solve`, o comando é:
 
-```r
-help(solve)
-```
+  ```r
+  help(solve)
+  ```
 Outra alternativa é:
 
-```r
-?solve
-```
+  ```r
+  ?solve
+  ```
 Digite estes comandos no console do RStudio e veja os resultados.
 
 Para um recurso especificado por caractéres especiais, o argumento deve ser envolto em aspas duplas ou simples, tornado-o um caracter. Isto também é necessário ára algumas palavras reservadas do R com algum significado sintático, exemplo: `if`, `for` e `function`.
 
-```r
-help("[[")
-# ou
-help("if")
-# ou 
-help("function")
-```
+  ```r
+  help("[[")
+  # ou
+  help("if")
+  # ou 
+  help("function")
+  ```
 
 Na marioria das instalações de R um sistema geral de ajuda está disponível, e pode acessa-lo com:
 
-```r
-help.start()
-```
+  ```r
+  help.start()
+  ```
 
 o que irá abrir seu navegador de internet, e permitirá navegar pelas páginas de ajuda com tutoriais e informações técnicas da linguagem. Na página de ajuda há também um "Motor de Busca" muito útil, pois contém acesso à todo o sistema CRAN, podendo ser usado para obter conhecimento amplo sobre a linguagem R e seus pacotes. Pode acessar o motor de busca diretamente do R com o seguinte comando:
 
-```r
-??solve
-```
+  ```r
+  ??solve
+  ```
 
 Que trará um resultado diferente ao do comando anterior `?solve`, teste em sua máquina e veja a diferença. Para avançar em seus estudos do R irá precisar usar, e bastante, o `help`. :)
 
@@ -64,14 +64,14 @@ Uma outra forma é clicar no botão `Source` disponibilizado no canto superior d
 
 Uma outra forma utilizada, normalmente para programas mais complexos, é a função `source`. Esta função recebe como parâmetro o nome de um arquivo (incluso seu caminho referencial à partir de seu diretório de trabalho - veremos isto mais adiante). Considerando um exemplo, em que teriamos um arquivo chamado `comandos.R` em nosso diretório de trabalho, podemos executa-lo com o seguinte comando:
 
-```r
-source("comandos.R")
-```
+  ```r
+  source("comandos.R")
+  ```
 
 O comando `source` executa seu arquivo de forma silenciosa, ou seja, não mostra resultado algum da compilação do arquivo. Caso queira ver o resultado da execução, basta acrescentar a opção `echo= TRUE`, conforme abaixo::
 
-```r
-source("comandos.R", echo=TRUE)
-```
+  ```r
+  source("comandos.R", echo=TRUE)
+  ```
 
 Vamos agora para o próximo capítulo e começar a criar nossos primeiros *scripts*!
