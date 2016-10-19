@@ -153,7 +153,7 @@ a <- 1:10
 > [1] 1 2 3 4 5 6 7 8 9 10 # resposta obtida
 ```
 
-### Filtros em vetore
+### Filtros em vetores
 
 Vamos supor que queremos filtrar os elementos do nosso vetor original `x` conforme abaixo:
 
