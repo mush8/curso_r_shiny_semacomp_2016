@@ -121,6 +121,7 @@ vetorMix <- c("Ricardo", 12.5, 10, "Bruno")
 Bom, está muito fácil né! Só ler, talvez copiar os códigos e testar. rs
 
 Agora que já está entendendo um pouco mais posso começar a cobrar, um pouco mais. ;D
+
 Por favor, experimente com os códigos abaixo e responda as perguntas, para você mesmo(a) por enquanto.
 
 ```r
