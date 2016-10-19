@@ -80,14 +80,6 @@ summary(semacomp_iris)
 
 2) Que outros argumentos a função `read.table` possui? e, basicamente, o que cada um faz?
 
-#### na.strings
+## Fim da Parte 1
 
-#### skip and nrow
-
-#### stringAsFactors
-
-### A Família *read*
-
-#### Links HTML
-
-### Salvando Arquivos Simples de Texto
+Se chegou até aqui, parabéns! Você pode agora respirar um pouco, olhe ao seu redor, ajude algum companheiro. E espere o desafio ;D
