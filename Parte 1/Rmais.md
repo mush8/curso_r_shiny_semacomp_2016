@@ -117,29 +117,33 @@ vetorMix <- c("Ricardo", 12.5, 10, "Bruno")
 
 ## Exercícios
 
-Experimente com os códigos abaixo e responda as perguntas, para você mesmo.
+
+Bom, está muito fácil né! Só ler, talvez copiar os códigos e testar. rs
+
+Agora que já está entendendo um pouco mais posso começar a cobrar, um pouco mais. ;D
+Por favor, experimente com os códigos abaixo e responda as perguntas, para você mesmo(a) por enquanto.
 
 ```r
 x <- c(20.0, 15.65, 15.0, 235.0, 70.1)
 1/x
 ```
-1) Qual é o resultado de `1/x`?
+**1) Qual é o resultado de `1/x`?**
 
 ```r
 x <- c(x, 0, x)
 ```
-2) Quantos elementos o novo vetor `x` terá? Qual função utilizar para obter o tamanho?
+**2) Quantos elementos o novo vetor `x` terá? Qual função utilizar para obter o tamanho?**
 
-3) Caso esteja acostumado com programação, temos em R o laço de repetição com o `for` também. O que acontece se utilizarmos o seguinte código?
+**3) Caso esteja acostumado com programação, temos em R o laço de repetição com o `for` também. O que acontece se utilizarmos o seguinte código?**
 
 ```r
 for (i in x){
   print(i)
 }
 ```
-4) É igual à linguagem C? (caso esteja familiarizado com ela)
+**4) É igual à linguagem C? (caso esteja familiarizado com ela)**
 
-5) Como fariamos para realizar um `for` ao estilo de C?
+**5) Como fariamos para realizar um `for` ao estilo de C?**
 
 **dica:** uma forma rápida de criar um vetor no R é:
 
@@ -162,12 +166,12 @@ A chamada de posição do vetor aceita muito mais do que somente índices como e
 x [ x > 20]
 ```
 
-6) O que você obtém com o código acima?
+**6) O que você obtém com o código acima?**
 
-7) E o que obtemos no código abaixo?
+**7) E o que obtemos no código abaixo?**
 
 ```r
 x > 20
 ```
 
-8) Consegue entender então o que ocorre para obtermos a resposta do exercício 6?
+**8) Consegue entender então o que ocorre para obtermos a resposta do exercício 6?**
