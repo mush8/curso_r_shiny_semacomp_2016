@@ -123,9 +123,51 @@ Experimente com os códigos abaixo e responda as perguntas, para você mesmo.
 x <- c(20.0, 15.65, 15.0, 235.0, 70.1)
 1/x
 ```
-Qual é o resultado de `1/x`?
+1) Qual é o resultado de `1/x`?
 
 ```r
 x <- c(x, 0, x)
 ```
-Quantos elementos o novo vetor `x` terá?
+2) Quantos elementos o novo vetor `x` terá? Qual função utilizar para obter o tamanho?
+
+3) Caso esteja acostumado com programação, temos em R o laço de repetição com o `for` também. O que acontece se utilizarmos o seguinte código?
+
+```r
+for (i in x){
+  print(i)
+}
+```
+4) É igual à linguagem C? (caso esteja familiarizado com ela)
+
+5) Como fariamos para realizar um `for` ao estilo de C?
+
+**dica:** uma forma rápida de criar um vetor no R é:
+
+```r
+a <- 1:10
+> [1] 1 2 3 4 5 6 7 8 9 10 # resposta obtida
+```
+
+### Filtros vetoriais
+
+Vamos supor que queremos filtrar os elementos do nosso vetor original `x` conforme abaixo:
+
+```r
+x <- c(20.0, 15.65, 15.0, 235.0, 70.1)
+```
+
+A chamada de posição do vetor aceita muito mais do que somente índices como ensinado nesta seção. Podemos realizar filtros inteiro em sua chamada. Por exemplo:
+
+```r
+x [ x > 20]
+```
+
+6) O que você obtém com o código acima?
+
+7) E o que obtemos no código abaixo?
+
+```r
+x > 20
+```
+
+8) Consegue entender então o que ocorre para obtermos a resposta do exercício 6?
