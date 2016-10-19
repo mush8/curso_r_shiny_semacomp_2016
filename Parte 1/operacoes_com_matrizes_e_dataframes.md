@@ -135,3 +135,24 @@ O que é um data frame no R? Tecnicamente, um data frame é uma lista com classe
 
 O data frame é uma estrutura muito poderosa, e pode ser bem complicada de se entender todas sua possibilidades. Então iremos focar aqui somente como cria-las, pois isso poderá ajudar na próxima lição.
 
+Uma das formas de criar um data frame é a seguinte:
+
+```r
+n = c(2, 3, 5) 
+s = c("aa", "bb", "cc") 
+b = c(TRUE, FALSE, TRUE) 
+df = data.frame(n, s, b)       # df is a data frame 
+```
+
+Veja que criamos 3 vetores distintos, e esses três vetores são dados de argumento para a função data.frame. Agora, chame os seguintes comandos e entenda as saídas:
+
+```r
+df
+df$n
+df["s"]
+df["b"][2,1]
+```
+
+De momento, podemos parar por aqui com as estruturas de dados do R. Há muitas mais, e muitas características interessantes das apresentadas aqui que não vimos. O aprofundamento neste tema irá te ajudar com característicad muitíssimo importante em um programador(a), otimizar espaço de memória e processamento, manter qualidade dos dados e na facilidade de acesso e organização.
+
+Parabéns por ter chego até aqui! O próximo capítulo irá tratar de um tema muito útil! Sobre como lidar com arquivos externos ao nosso código, como recuperar dados de fora de nosso código. Veremos um caso base, arquivos de texto, mas o R possibilita lidar com uma ampla variedade de formatos. Continue estudando. :D
