@@ -6,16 +6,16 @@ Bom, como começar? Lembre que falamos sobre dois arquivos `ui.R` e `server.R`? 
 
 Tendo o arquivo criado, vamos iniciar com a estrutura base para qualquer aplicativo Shiny:
 
-  ```r
-  library(shiny)
+```r
+library(shiny)
 
-  ui <- fluidPage(
+ui <- fluidPage(
 
-  )
+)
 
-  server <- function(input, output) {
+server <- function(input, output) {
 
-  }
+}
 
-  shinyApp(ui = ui, server = server)
-  ```
+shinyApp(ui = ui, server = server)
+```
