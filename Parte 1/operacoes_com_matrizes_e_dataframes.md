@@ -1,4 +1,4 @@
-# Operações com matrizes e arrays, e dataframes e lists
+# Operações com matrizes e arrays, e data frames e lists
 
 ## Matrizes e arrays
 
@@ -125,4 +125,10 @@ Bom, há algumas razões para isso, mas uma das principais é que a listas podem
 Lst[5] <- list(matrix=Mat)
 ```
 
-### Dataframes
+Caso não tenha entendido bem, não se preocupe. O primeiro passo é ver que existe, o seguinte passo é brincar um pouco, digite os códigos, tente manusear a estrutura, depois você continuar sem entender, e aos poucos irá aplicando e entendendo melhor.
+
+**3) Gostou de ajudar seu amigo(a) ao lado? Caso sim, por favor, veja novamente se ele(a) precisa de ajuda. :)**
+
+### Data frames
+
+O que é um data frame no R? Tecnicamente, um data frame é uma lista com classe `"data.frame"`.
