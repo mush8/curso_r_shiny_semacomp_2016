@@ -16,7 +16,7 @@ is.matrix(y)
 
 Ué! Teste as respostas por você... todas devem dar respostas `TRUE`. Ué(2)!! Então por quê temos essas duas possibilidades???
 
-*Pequeno Desafio:* 1) Você sabe encontrar e dizer o por quê? Se souber, por favor, guarde para você anote, e veremos durante o curso. ;)
+*Pequeno Desafio:* **1) Você sabe encontrar e dizer o por quê? Se souber, por favor, guarde para você anote, e veremos durante o curso. ;)**
 
 Pensou já no desafio acima? Vamos continuar, em como podemos acessar e manusear os dados de uma matriz. Utilizaremos agora a função `matrix`, só por escolher mesmo e aplicaremos algumas funções nas matrizes que criarmos.
 
@@ -41,7 +41,7 @@ y
 > # [4,]    4    8   12   16   20
 ```
 
-2) como podemos criar a mesma matriz, só que preenchida por linhas?
+**2) como podemos criar a mesma matriz, só que preenchida por linhas?**
 
 *dica*: utilize a ajuda do RStudio de autocompletar com o botão `Tab`, para isso, digite o seguinte `y <- matrix(1:20, nrow = 4, ncol = 5,` sem o parêntesis no final, terminando em vírgula, e com o cursos após a vírgula aperte `Tab`, você deve ver algo assim:
 
@@ -72,9 +72,9 @@ x * y
 t(x) %*% y
 ```
 
-3) qual é a diferença entre as duas linhas acima? Mostre o cálculo que foi feito,
+**3) qual é a diferença entre as duas linhas acima? Mostre o cálculo que foi feito,**
 
-4) o que faz a função `t` na segunda linha?
+**4) o que faz a função `t` na segunda linha?**
 
 E funções estatísticas? afinal o R é uma linguagem de programação estatística! E é seu ponto forte! Bom, algo para iniciar seriam os comando abaixo, ainda com nossa matriz `x` criada acima:
 
@@ -85,7 +85,7 @@ var(x)
 summary(x)
 ```
 
-5) Veja quais são os resultados e identifique que tipo de cálculo estatístico as funções `mean`, `sd` e `var` realizam? E a função `summary`?
+**5) Veja quais são os resultados e identifique que tipo de cálculo estatístico as funções `mean`, `sd` e `var` realizam? E a função `summary`?**
 
 Bom, por enquanto, temos uma boa base das possibilidades de vetores e matrizes, parabéns! Respire fundo, de um sorriso para seu amigo(a) de curso ao lado e, se ele estiver 'travado' antes desta etapa, tente ajuda-lo. Rever um pouco dos conceitos irá ajudar e tentar explicar para alguém irá ajudar, caso sinta muita dificuldade peça para um monitor ajudar.
 
@@ -108,14 +108,14 @@ Componentes são sempre *numerados* e podem ser sempre referenciados como tal. D
 
 Componentes de uma lista podem também ser **nomeados**, e neste caso o componente pode também ser referenciado pelo seu nome, no lugar dos duplos colchetes. O que fica mais conveniente.
 
-1) Por exemplo, o que ocorre ao chamar o comando abaixo?
+**1) Por exemplo, o que ocorre ao chamar o comando abaixo?**
 
 ```r
 Lst$name
 Lst$wife
 ```
 
-2) E, melhor ainda, o que ocorre ao apertar o `Tab` após escrever `Lst$`?
+**2) E, melhor ainda, o que ocorre ao apertar o `Tab` após escrever `Lst$`?**
 
 E a dúvida que não quer calar, por quê usamos colchetes duplas se quando usávamos vetores e matrizes só era necessário colchete simples???
 
