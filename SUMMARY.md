@@ -12,7 +12,7 @@
 * [Parte 2](Parte 2/README.md)
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
    * [Um pouco de motivação](Parte 2/motivac.md)
-   * Mãos na massa!
+   * [Mãos na massa!](Parte 2/maos_na_massa.md)
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Desafio](Parte 2/desafios.md)
 
