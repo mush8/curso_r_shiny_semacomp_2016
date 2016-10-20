@@ -2,7 +2,9 @@
 
 Vimos já o suficiente para que desenvolva os seus próprios aplicativos Shiny.
 
-É claro, há muitas mais funções e possibilidades, mas com as ideias já vistas você consegue se aprofundar, com segurança, em futuros projetos. E a complexidade dos seus apps dependem de sua lógica em R, e complementos na programação Shiny.
+É claro, há muitas mais funções e possibilidades, mas com as ideias já vistas você consegue se aprofundar, com segurança, em futuros projetos.
+
+A complexidade dos seus apps dependeram de sua lógica em R, e complementos na programação Shiny. Mas o importante é resolver problemas reais!
 
 Mas para quê construímos projetos se não compartilhar-mos?!?!
 
