@@ -43,7 +43,7 @@ Utilize o template abaixo e organize os blocos de código **a)**, **b)**, **c)**
   shinyApp(ui = ui, server = server)
   ```
   
-  E as funções abaixo:
+  Seguem os blocos de código abaixo:
   
   ### a)
   ```r
