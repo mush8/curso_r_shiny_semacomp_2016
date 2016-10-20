@@ -39,4 +39,4 @@ Este material é um compilado de diversas fontes:
 ## Material produzido por:
 
 * [Ricardo Manhães Savii](https://github.com/ricoms)
-* Bruno Ogata
+* [Bruno Ogata](https://br.linkedin.com/in/bruno-ogata-433698102)
