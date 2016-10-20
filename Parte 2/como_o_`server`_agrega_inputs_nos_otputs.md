@@ -55,3 +55,15 @@ Lembra do nosso input abaixo?
 pode chamar seus **inputs** com sintáxe similar ao que utiliza para os **outputs** - `input$num`. E os valores de **input** que me refiro são todos os valores das funções de entrada que tenha colocado no `ui`, e por isso é importante um id único. ;)
 
 Ou seja, chamando `input$num` teremos sempre o valor atualizado, sempre que o usuário trocar a entrada.
+
+![](Screenshot from 2016-10-20 00-54-34.png)
+
+Alterando então nossa função `server` para
+
+  ```r
+  server <- function(input, output) {
+    output$hist <- renderPlot({
+      renderPlot({ hist(rnorm(100)) })
+    })
+  }
+  ```
