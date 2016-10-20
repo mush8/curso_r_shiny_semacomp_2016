@@ -41,6 +41,6 @@ Perceba também que o argumento passado para a função **render*()** é diferen
 
 Todas as funções começam com `render` e continua com o nome do objeto que queremos criar, no caso `Plot`. O argumento que a função de renderização recebe é um bloco de código em R que constrói o objeto que você quer fazer. O código acima irá contruir um histograma (função `hist` do R base) de de 100 números aleatórios de uma distribuição normal (função `rnorm` do R base).
 
-Colocamos chaves em torno do código para passa-lo como um bloco unificado de código R. O que as chaves nos deixam fazer é colocar quantas linhas de R precisarmos para gerar o objeto desejado. Ou seja, se nosso objeto exige 100 linhas de código... colocamos as 100 linhas de código entre as chaves, e pronto. Mas não se preocupe, não vamos precisar de 100 linhas de código. :P
+Colocamos chaves em torno do código para passa-lo como um bloco unificado de código R. O que as chaves nos deixam fazer é colocar quantas linhas de R precisarmos para gerar o objeto desejado. Ou seja, se nosso objeto exige 100 linhas de código... colocamos as 100 linhas de código entre as chaves, e pronto. Mas não se preocupe, não vamos precisar de 100 linhas de código. :P Mas aqui é onde você pode começar a construir apps bem complexos.
 
 
