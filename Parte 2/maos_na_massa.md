@@ -109,3 +109,6 @@ Então, para adicionarmos nossa função de output para nosso app, o passaremos 
 
   shinyApp(ui = ui, server = server)
   ```
+  
+  Não esqueça de adicionar uma vírgula entre os argumentos passados para `fluidPage()`. E se processarmos nosso app agora, veremos o seguinte:
+  ![](Screenshot from 2016-10-20 00-12-57.png)
