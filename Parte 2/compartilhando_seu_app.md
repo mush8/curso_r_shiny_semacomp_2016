@@ -4,9 +4,7 @@ Vimos já o suficiente para que desenvolva os seus próprios aplicativos Shiny.
 
 É claro, há muitas mais funções e possibilidades, mas com as ideias já vistas você consegue se aprofundar, com segurança, em futuros projetos.
 
-A complexidade dos seus apps dependeram de sua lógica em R, e complementos na programação Shiny. Mas o importante é resolver problemas reais!
-
-Mas para quê construímos projetos se não compartilhar-mos?!?!
+A complexidade dos seus apps dependeram de sua lógica em R, e complementos na programação Shiny. Mas o importante é resolver problemas reais, atender alguma necessidade.
 
 Compartilhar é a parte central dos aplicativos. Para publicar seu app Shiny, basta trocar seu computador por um servidor na nuvem, e o RStudio pode tornar isso bem fácil. Inicialmente, recomendo que coloque todos os arquivos de seu app em uma pasta. E se você está utilizando o padrão de arquivo único para seu app, o nome do arquivo deve ser `app.R`.
 
