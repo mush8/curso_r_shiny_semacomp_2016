@@ -84,4 +84,4 @@ Perceba que o arquivo criado é um *.csv*, ou seja as células estão separadas 
 4) 
 ## Fim da Parte 1
 
-Se chegou até aqui, parabéns! Você pode agora respirar um pouco, olhe ao seu redor, ajude algum companheiro. E espere o desafio ;D
+Se chegou até aqui, parabéns! Você pode agora respirar um pouco, olhe ao seu redor, ajude algum companheiro. E enfrente o desafio se ainda tiver fôlego. ;D
