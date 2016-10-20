@@ -47,4 +47,9 @@ Mas só temos 2 regras até o momento, a nossa terceira regra é,
 
 ### 3. Use valores de entrada com `input$`
 
+Lembra do nosso input abaixo?
 
+  ```r
+  sliderInput(inputId = "num", ...)
+  ```
+pode chamar seus **inputs** com sintáxe similar ao que utiliza para os **outputs** - `input$num`.
