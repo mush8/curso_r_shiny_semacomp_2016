@@ -13,8 +13,8 @@
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
    * [Um pouco de motivação](Parte 2/motivac.md)
    * [Mãos na massa!](Parte 2/maos_na_massa.md)
+   * Como o `server` agrega inputs nos otputs
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Desafio](Parte 2/desafios.md)
 * [Fim](fim.md)
-* Como o `server` agrega inputs nos otputs
 
