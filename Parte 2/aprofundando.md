@@ -8,8 +8,6 @@ O que precisamos saber é que temos a função `kmeans` já disponibilizada no R
 
 ![](Screenshot from 2016-10-19 14-12-56.png)
 
-Lembrando, é possivel obter a ajuda detalhada sobre a função utilizando
-  ```r
-  help(kmeans)
-  ```
+Lembrando, é possivel obter a ajuda detalhada sobre a função utilizando ```r  help(kmeans) ```.
+
 Porém, em nosso aplicativo minimalista, não vamos utilizar todos os argumentos da função. Iremos utilizar somente **x** e **centers**. Onde **x** são os dados que no nosso caso serão os dados **iris** e **centers** que é a quantidade de conjuntos que queremos dividir nossos dados ou um conjunto inicial de clusters. Caso tenha alguma dúvida aqui, pergunte ao monitor, mas reforçando, não é necessário entendermos as entranhas do algoritmo `kmeans`, o que queremos é criar um aplicativo que sirva de interface para o `kmeans`.
