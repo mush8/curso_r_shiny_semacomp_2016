@@ -10,7 +10,7 @@ Abaixo é como a função `server` deve ficar em seu template ao início do prog
   ```
 
 Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos popular a função `server` com instruções. Estas instruções devem seguir 3 regras:
-### 1. Salve objetos para exibir a saída (output$)
+### 1. Salve objetos com `output$` para exibir a saída 
   ```r
   server <- function(input, output) {
     output$hist <- # código
@@ -21,7 +21,7 @@ Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos
   
   Eu escolhi o nome `hist`, porque é o mesmo nome colocado na nossa função do `ui`, a `plotOutput("hist")`, lembra?
   
-### 2. A segunda regra é, o que você salvar no output é algo criado com uma função render*() (renderizada).
+### 2. A segunda regra é, o que você salvar no output é algo criado com uma função `render*()` (renderizada).
   ```r
   server <- function(input, output) {
     output$hist <- renderPlot({
@@ -42,5 +42,9 @@ Perceba também que o argumento passado para a função **render*()** é diferen
 Todas as funções começam com `render` e continua com o nome do objeto que queremos criar, no caso `Plot`. O argumento que a função de renderização recebe é um bloco de código em R que constrói o objeto que você quer fazer. O código acima irá contruir um histograma (função `hist` do R base) de de 100 números aleatórios de uma distribuição normal (função `rnorm` do R base).
 
 Colocamos chaves em torno do código para passa-lo como um bloco unificado de código R. O que as chaves nos deixam fazer é colocar quantas linhas de R precisarmos para gerar o objeto desejado. Ou seja, se nosso objeto exige 100 linhas de código... colocamos as 100 linhas de código entre as chaves, e pronto. Mas não se preocupe, não vamos precisar de 100 linhas de código. :P Mas aqui é onde você pode começar a construir apps bem complexos.
+
+Mas só temos 2 regras até o momento, a nossa terceira regra é,
+
+### 3. Use valores de entrada com `input$`
 
 
