@@ -169,6 +169,9 @@ Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos
     })
   }
   ```
-Então, o Shiny provê um terceiro tipo de função, funções de renderização (**render functions**):
+Então, o Shiny provê um terceiro tipo de função, funções de renderização (**render functions**). As funções de renderização (**render**) trabalham junto com as funções de saídas (**output**) para criar o tipo de saída que você deseja fazer.
 
 ![](Screenshot from 2016-10-20 00-34-36.png)
+
+
+
