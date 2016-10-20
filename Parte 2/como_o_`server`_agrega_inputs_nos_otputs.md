@@ -1,4 +1,4 @@
-## Diga ao `server` como agregar inputs nos outputs
+# Diga ao `server` como agregar inputs nos outputs
 
 Abaixo é como a função `server` deve ficar em seu template ao início do programa:
 
@@ -10,7 +10,7 @@ Abaixo é como a função `server` deve ficar em seu template ao início do prog
   ```
 
 Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos popular a função `server` com instruções. Estas instruções devem seguir 3 regras:
-### 1. Salve objetos para exibir a saída (**output$**)
+## 1. Salve objetos para exibir a saída (**output$**)
   ```r
   server <- function(input, output) {
     output$hist <- # código
@@ -21,7 +21,7 @@ Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos
   
   Eu escolhi o nome `hist`, porque é o mesmo nome colocado na nossa função do `ui`, a `plotOutput("hist")`, lembra?
   
-### 2. A segunda regra é, o que você salvar no **output** é algo criado com uma função **render*()** (renderizada).
+## 2. A segunda regra é, o que você salvar no **output** é algo criado com uma função **render*()** (renderizada).
   ```r
   server <- function(input, output) {
     output$hist <- renderPlot({
