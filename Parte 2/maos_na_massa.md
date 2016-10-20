@@ -157,6 +157,15 @@ Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos
 
   }
   ```
-  Se você está construindo uma saída, você deve salvar o objeto em **output$**. No código acima, o código irá salvar o objeto no elemento `hist` da lista de saídas... sím! o argumento **output** é uma `list`, lembra dela? rsrs (observação: o argumento **input** do seu `server` tambem é uma `list`)
+  Se você está construindo uma saída, você deve salvar o objeto em **output$**. No código acima, o código irá salvar o objeto no elemento `hist` da lista de saídas... sím! o argumento **output** é uma `list`, lembra dela? rsrs (observação: o argumento **input** do seu `server` tambem é uma `list`).
   
-2. 
+  Eu escolhi o nome `hist`, porque é o mesmo nome colocado na nossa função do `ui`, a `plotOutput("hist")`, lembra?
+  
+2. A segunda regra é, o que você salvar no **output** é algo criado com uma função **render*()** (renderizada).
+  ```r
+  server <- function(input, output) {
+    output$hist <- renderPlot({
+    
+    })
+  }
+  ```
