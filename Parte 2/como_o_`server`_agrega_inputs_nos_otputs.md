@@ -63,7 +63,7 @@ Alterando então nossa função `server` para
   ```r
   server <- function(input, output) {
     output$hist <- renderPlot({
-      renderPlot({ hist(rnorm(input$num)) })
+      hist(rnorm(input$num))
     })
   }
   ```
@@ -78,14 +78,14 @@ Agora, finalizamos nosso primeiro app juntos. Rode o código abaixo e veja o res
 
   ui <- fluidPage(
     sliderInput(inputId = "num",
-      label = "Escolha um número",
-      value = 25, min = 1, max = 100),
+                label = "Escolha um número",
+                value = 25, min = 1, max = 100),
     plotOutput("hist")
   )
 
   server <- function(input, output) {
     output$hist <- renderPlot({
-      renderPlot({ hist(rnorm(input$num)) })
+      hist(rnorm(input$num))
     })
   }
 
