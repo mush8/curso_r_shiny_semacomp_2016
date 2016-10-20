@@ -67,3 +67,4 @@ Alterando então nossa função `server` para
     })
   }
   ```
+utilizaremos o valor de entrada feito pelo usuário em nossa função para renderizar o *plot*.
