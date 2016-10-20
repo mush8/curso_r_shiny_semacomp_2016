@@ -91,3 +91,9 @@ Agora, finalizamos nosso primeiro app juntos. Rode o código abaixo e veja o res
 
   shinyApp(ui = ui, server = server)
   ```
+  
+  ## Recapitulando
+  
+  1. Salve a saída construída em **output$**
+  2. Contrua o objeto de saída com a funçao **render*()**
+  3. Acesse os valores de entrada com **input$**
