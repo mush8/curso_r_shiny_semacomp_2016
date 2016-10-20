@@ -169,3 +169,6 @@ Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos
     })
   }
   ```
+Então, o Shiny provê um terceiro tipo de função, funções de renderização (**render functions**):
+
+![](Screenshot from 2016-10-20 00-34-36.png)
