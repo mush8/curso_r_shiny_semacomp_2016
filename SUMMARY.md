@@ -16,4 +16,5 @@
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Desafio](Parte 2/desafios.md)
 * [Fim](fim.md)
+* Como o `server` agrega inputs nos otputs
 
