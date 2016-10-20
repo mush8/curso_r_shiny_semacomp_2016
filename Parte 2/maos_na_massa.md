@@ -4,18 +4,14 @@ Vamos iniciar montando um aplicativo de visualização dos dados `iris`, que vim
 
 Bom, como começar? Lembre que falamos sobre dois arquivos `ui.R` e `server.R`? Para este projeto, como nosso código final não será muito grande, iremos criar um único arquivo. Pode então, criar um novo `R script` em seu RStudio (em `File -> New File -> R script`), e dê o nome de `app.R`.
 
-Tendo o arquivo criado, vamos iniciar com a estrutura base para qualquer aplicativo Shiny:
+Tendo o arquivo criado, vamos iniciar com a estrutura base para qualquer aplicativo Shiny. Este é o nosso **template**!!
 
   ```r
   library(shiny)
 
-  ui <- fluidPage(
+  ui <- fluidPage()
 
-  )
-
-  server <- function(input, output) {
-
-  }
+  server <- function(input, output) {}
 
   shinyApp(ui = ui, server = server)
   ```
@@ -34,3 +30,82 @@ Lembrando, é possivel obtermos uma ajuda detalhada sobre a função utilizando
   ```
 Porém, em nosso aplicativo minimalista, não vamos utilizar todos os argumentos da função. Iremos utilizar somente **x** e **centers**. Onde **x** são os dados que no nosso caso serão os dados **iris** e **centers** que é a quantidade de conjuntos que queremos dividir nossos dados ou um conjunto inicial de clusters. Caso tenha alguma dúvida aqui, pergunte ao monitor, mas reforçando, não é necessário entendermos as entranhas do algoritmo `kmeans`, o que queremos é criar um aplicativo que sirva de interface para o `kmeans`.
 
+mas primeiro vamos ver um pouco de teoria... desculpe, precisamos de bases de organização para a programação em Shiny. 0o' Leia abaixo com calma e pergunte ao monitor se precisar.
+
+## Inputs e Outputs
+
+Os **inputs** são coisas que o usuário pode variar, ou pode prover valores para o seu app. E **outputs** são objetos R que o usuário pode ver, plots, tabelas, textos...
+
+os Inputs e outputs devem entrar como argumentos da sua função `fluidPage`. Algo assim:
+
+  ```r
+  ui <- fluidPage(
+    # *Input() functions,
+    # *Output() functions
+  )
+  ```
+
+### Inputs
+
+  ```r
+  sliderInput(inputId = "num",
+      label = "Escolha um número",
+      value = 25, min = 1, max = 100)
+  ```
+
+O código acima, por exemplo, é uma função de **input** que irá criar um objeto deslizante em Shiny.
+
+Se você colocar a função acima no seu **template** iremos obter algo como abaixo, teste isto:
+
+![](Screenshot from 2016-10-19 23-48-14.png)
+
+Deve ter criado um objeto deslizante, no seu RStudio. Aqui é uma imagem... então não consigo fazer deslizar para você, é importante que teste! :P
+
+O Shiny provê uma duzia de funções de **input**, conforme abaixo:
+
+![](Screenshot from 2016-10-19 23-50-18.png)
+
+
+Todas são disponíveis na biblioteca Shiny e pode utilizar em seu app.
+
+Todas as funções de input recebem os mesmos dois primeiros argumentos,
+
+  ```r
+  sliderInput(inputId = "num", label = "Choose a number", ...)
+  ```
+estes são o `inputId`, que é o nome do **input** que deve ser único para identificação e é para uso interno de seu app, e o segundo argumento é  `label` que é somente um rótulo que o usuário irá ver, é uma forma de dizer ao usuário o que fazer com aquele objeto. Caso você não queira adicionar um `label` somente iguale-o à duas aspas `label = ""` e não aparecerá nada, mas lembre-se de cuidar da "Interação Humano Computador".
+
+Daí temos os `...`, que cada função de **input** aceita diferentes argumentos que definirão como o objeto irá fazer seu trabalho. Por exemplo, o `sliderInput` precisa saber qual é o mínimo valor e máximo valor possível que o usuário pode escolher e um valor inicial.
+
+Lembre-se, para obter informações mais específicas sobre uma função no R basta usar `?sliderInput` ou `help(sliderInput)`. Teste com algumas das funções **inputs** da imagem e veja se os argumentos fazem sentido.
+
+### Outputs
+
+Lembrando, **Outputs** são tipos como plots, tabelas, textos... coisas que você consegue criar com R.
+
+![](Screenshot from 2016-10-20 00-03-34.png)
+Estas são as funções que colocam no seu app diferentes tipos de saídas, então há uma função dedicada à colocar gráficos no seu app, uma função para colocar tabelas, textos, e assim vai.
+
+Para exibir uma saída, adicione-a ao seu `fluidPage()` com uma função de **output**, por exemplo:
+
+```r
+plotOutput(outputId = "hist")
+```
+Cada função de **output** requer um argumento chamado `outputId`, que igual às funções de **input** é um nome para a sua saída e pode colocar o nome que quiser.
+
+Então, para adicionarmos nossa função de output para nosso app, o passaremos para a nossa função `fluidPage` conforme à seguir:
+
+  ```r
+  library(shiny)
+
+  ui <- fluidPage(
+    sliderInput(inputId = "num",
+      label = "Escolha um número",
+      value = 25, min = 1, max = 100),
+    plotOutput("hist")
+  )
+
+  server <- function(input, output) {}
+
+  shinyApp(ui = ui, server = server)
+  ```
