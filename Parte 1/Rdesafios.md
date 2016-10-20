@@ -1,12 +1,14 @@
 # Desafio
 
-#####Jaime Nagai foi um exímio jogador de futebol, atuando entre 1989 e 2013 pelo Bangu de Boa Vista, Roraima. Um estatístico fã de Jaime, resolveu coletar todos os dados da carreira do jogador, em biografias e sites futebolíticos e colocou tudo em uma tabela. Ele pede a sua ajuda para tirar algumas informações do banco de dados:
-* #####Deseja-se saber:
-  * Quantos gols o jogador fez em toda sua carreira?
-  * E quantos jogos ele jogou? 
-  * Qual é a proporção de cartões amarelos que ele cometeu em toda sua carreira? E de vermelhos?
+**Jaime Nagai foi um exímio jogador de futebol, atuando entre 1989 e 2013 pelo Bangu de Boa Vista, Roraima. Um estatístico fã de Jaime, resolveu coletar todos os dados da carreira do jogador, em biografias e sites futebolíticos e colocou tudo em uma tabela. Ele pede a sua ajuda para tirar algumas informações do banco de dados:**
+* ##### Deseja-se saber:
+  a. Quantos gols o jogador fez em toda sua carreira?
+  
+  b. E quantos jogos ele jogou? 
+  
+  c. Qual é a proporção de cartões amarelos que ele cometeu em toda sua carreira? E de vermelhos?
 
-######Obs: O estatístico leu em sua biografia que Jaime era muito supersticioso. E não podia jogar em anos MÚLTIPLOS DE 5. Caso contrário teria azar para sempre e nunca mais faria um gol.
+**Obs:** O estatístico leu em sua biografia que Jaime era muito supersticioso. E não podia jogar em anos MÚLTIPLOS DE 5. Caso contrário teria azar para sempre e nunca mais faria um gol.
 
 
 Faça download dos dados: [base.csv](https://docs.google.com/spreadsheets/d/1X_zzldMolrSZbWJYfhNjwZzCTXil6gsXecBQGdvIlYo/edit?usp=sharing)
