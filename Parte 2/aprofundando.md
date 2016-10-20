@@ -8,7 +8,7 @@ O que precisamos saber é que temos a função `kmeans` já disponibilizada no R
 
 ![](Screenshot from 2016-10-19 14-12-56.png)
 
-Lembrando, é possivel obtermos uma ajuda detalhada sobre a função utilizando
+Lembrando, é possivel obter a ajuda detalhada sobre a função utilizando
   ```r
   help(kmeans)
   ```
