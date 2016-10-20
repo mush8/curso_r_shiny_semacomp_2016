@@ -13,11 +13,10 @@ Caso esteja utilizando a modalidade de dois arquivos separados, seus dois arquiv
 
 Com seus arquivos organizados, quero que conheça o [shinyapps.io](shinyapps.io).
 
-Como estamos utilizando os PCs da universidade, não recomendo conectar o RStudio agora.
-
 Shinyapps.io é um servidor mantido pela empresa RStudio, onde você pode disponibilizar seus aplicativo online. O servidor é fácil de acessar e usar, e oferece uma opção gratuíta para seu uso. E serve para pequenos apps de teste ou aplicativos com os quais queira impressionar seu professor ou professora daquela disciplina bem difícil.
 
-Para submeter seu aplicativo você precisa criar uma conta no site [shinyapps.io](shinyapps.io) e seguir o explicativo de como conectar seu RStudio com sua conta.
+Como estamos utilizando os PCs da universidade, não recomendo conectar o RStudio agora.
+Mas fica como tarefa de casa submeter seu primeiro aplicativo. Para publica-lo você precisa criar uma conta no site [shinyapps.io](shinyapps.io) e seguir as orientações de como conectar seu RStudio com a sua conta.
 
 
 
