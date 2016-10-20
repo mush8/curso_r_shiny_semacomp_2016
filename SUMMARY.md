@@ -14,7 +14,6 @@
    * [Um pouco de motivação](Parte 2/motivac.md)
    * [Iniciando no Shiny](Parte 2/iniciando_no_shiny.md)
    * [Como o `server` agrega inputs nos otputs](Parte 2/como_o_`server`_agrega_inputs_nos_otputs.md)
-   * [Aprofundando](Parte 2/aprofundando.md)
    * [Compartilhando seu app](Parte 2/compartilhando_seu_app.md)
    * [Desafio](Parte 2/desafios.md)
 * [Fim](fim.md)
