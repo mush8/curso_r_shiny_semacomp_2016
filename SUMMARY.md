@@ -12,7 +12,7 @@
 * [Parte 2](Parte 2/README.md)
    * [Shiny, como começo?](Parte 2/IntroShiny.md)
    * [Um pouco de motivação](Parte 2/motivac.md)
-   * [Iniciando no Shiny](Parte 2/maos_na_massa.md)
+   * [Iniciando no Shiny](Parte 2/iniciando_no_shiny.md)
    * [Como o `server` agrega inputs nos otputs](Parte 2/como_o_`server`_agrega_inputs_nos_otputs.md)
    * [Aprofundando](Parte 2/aprofundando.md)
    * [Desafio](Parte 2/desafios.md)
