@@ -4,7 +4,7 @@
 
 O conceito do `kmeans` é, basicamente, um algoritmo de agrupamento que detecta centróides de conjuntos comuns à partir de uma medida de distância determinada. Não é tão importante entender seu funcionamento interno, mas caso queira entender um pouco mais leia a [wiki kmeans](https://pt.wikipedia.org/wiki/K-means).
 
-O que precisamos sabe é que temos a função `kmeans` já disponibilizada no R, basta chamarmos ela. Se escrevermos `kmeans` no RStudio e abrirmos parênteses, obteremos um descritivo dos argumentos que a função recebe.
+O que precisamos saber é que temos a função `kmeans` já disponibilizada no R, basta chamarmos ela. Se escrevermos `kmeans` no RStudio e abrirmos parênteses, obteremos um descritivo dos argumentos que a função recebe.
 
 ![](Screenshot from 2016-10-19 14-12-56.png)
 
