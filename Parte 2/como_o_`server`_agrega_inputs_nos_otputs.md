@@ -63,7 +63,7 @@ Alterando então nossa função `server` para
   ```r
   server <- function(input, output) {
     output$hist <- renderPlot({
-      renderPlot({ hist(rnorm(100)) })
+      renderPlot({ hist(rnorm(input$num)) })
     })
   }
   ```
