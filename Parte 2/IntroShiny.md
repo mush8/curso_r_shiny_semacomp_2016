@@ -1,4 +1,4 @@
-# Shiny, como começo?
+# Shiny, trabalhando com exemplos
 
 Este tutorial tem como pretensão te ensinar a construir um aplicativo Shiny básico. Para isso vamos ir passo-a-passo para entender as principais funções já presentes no pacote, como fazer seu aplicativo reativo e como publicar os aplicativos Shiny que criar. :D Com este tutorial seus aplicativos não serão muito bonitos ou emocionantes, no começo, mas podem ser bem úteis!
 
