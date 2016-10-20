@@ -30,11 +30,13 @@ Este material é um compilado de diversas fontes:
    * [Carregar e Salvar Dados em R](Parte 1/carregar_e_salvar_dados_em_r.md)
    * [Desafio](Parte 1/Rdesafios.md)
 * [Parte 2](Parte 2/README.md)
-   * [Shiny, como começo?](Parte 2/IntroShiny.md)
+   * [Shiny, trabalhando com exemplos](Parte 2/IntroShiny.md)
    * [Um pouco de motivação](Parte 2/motivac.md)
-   * [Mãos na massa!](Parte 2/maos_na_massa.md)
-   * [Aprofundando](Parte 2/aprofundando.md)
+   * [Iniciando no Shiny](Parte 2/iniciando_no_shiny.md)
+   * [Como o `server` agrega inputs nos otputs](Parte 2/como_o_`server`_agrega_inputs_nos_otputs.md)
+   * [Compartilhando seu app](Parte 2/compartilhando_seu_app.md)
    * [Desafio](Parte 2/desafios.md)
+* [Fim](fim.md)
 
 ## Material produzido por:
 
