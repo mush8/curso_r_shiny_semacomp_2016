@@ -87,3 +87,7 @@ Utilize o template abaixo e organize os blocos de código **a)**, **b)**, **c)**
       kmeans(selectedData(), input$clusters)
     })
   ```
+  
+A resposta esperada é o seguinte app:
+
+![](Screenshot from 2016-10-20 02-58-11.png)
