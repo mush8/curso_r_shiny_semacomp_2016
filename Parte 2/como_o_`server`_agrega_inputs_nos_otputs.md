@@ -74,5 +74,20 @@ Se você seguir as 3 regras acima, a reatividade das funções irá tomar conta 
 Agora, finalizamos nosso primeiro app juntos. Rode o código abaixo e veja o resultado:
 
   ```r
-  
+  library(shiny)
+
+  ui <- fluidPage(
+    sliderInput(inputId = "num",
+      label = "Escolha um número",
+      value = 25, min = 1, max = 100),
+    plotOutput("hist")
+  )
+
+  server <- function(input, output) {
+    output$hist <- renderPlot({
+      renderPlot({ hist(rnorm(input$num)) })
+    })
+  }
+
+  shinyApp(ui = ui, server = server)
   ```
