@@ -1,6 +1,10 @@
 # Aprofundando
 
-À partir disto, incluiremos os artefatos de nossa análise dos dados `iris`, onde iremos aplicar um algoritmo chamado `kmeans`. O conceito do `kmeans` é, basicamente, um algoritmo de agrupamento que detecta centróides de conjuntos comuns à partir de uma medida de distância determinada. Caso queira entender um pouco mais leia a [wiki kmeans](https://pt.wikipedia.org/wiki/K-means), porém não é tão importante entender seu funcionamento interno. O que precisamos sabe é que temos a função `kmeans` já disponibilizada no R, basta chamarmos ela. Se escrevermos `kmeans` no RStudio e abrirmos parênteses, obteremos um descritivo dos argumentos que a função recebe.
+À partir de todo o conhecimento adquirido, podemos começar a complicar. Eu gostaria de fazer um aplicativo para análise dos dados `iris` (base de dados clássica de aprendizado de máquina). Iremos aplicar um algoritmo chamado `kmeans`.
+
+O conceito do `kmeans` é, basicamente, um algoritmo de agrupamento que detecta centróides de conjuntos comuns à partir de uma medida de distância determinada. Não é tão importante entender seu funcionamento interno, mas caso queira entender um pouco mais leia a [wiki kmeans](https://pt.wikipedia.org/wiki/K-means).
+
+O que precisamos sabe é que temos a função `kmeans` já disponibilizada no R, basta chamarmos ela. Se escrevermos `kmeans` no RStudio e abrirmos parênteses, obteremos um descritivo dos argumentos que a função recebe.
 
 ![](Screenshot from 2016-10-19 14-12-56.png)
 
