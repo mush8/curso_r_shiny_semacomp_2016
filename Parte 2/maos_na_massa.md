@@ -112,3 +112,51 @@ Então, para adicionarmos nossa função de output para nosso app, o passaremos 
   
   Não esqueça de adicionar uma vírgula entre os argumentos passados para `fluidPage()`. E se processarmos nosso app agora, veremos o seguinte:
   ![](Screenshot from 2016-10-20 00-12-57.png)
+  
+  Ué! Mas não mudou nada... o que aconteceu?
+  
+  A função **Output()** adiciona somente um espaço na interface para que seja adicionado um objeto R. Mas pelo código que escrevemos, o app não tem ideia de que objeto colocar ali... apesar de termos colocado como nome do plot de `"hist"`, o app não sabe quem é esse tal de `hist`, então tudo que ele pode fazer foi reservar um espaço para ele.
+  
+  Agora precisamos dizer ao app como constuir aquele *plot*, e isso é algo que fazemos com a função do `server`. Mas antes de olhar a função `server` vamos rever tudo que temos até o momento.
+  
+  ## Recapitulando
+  
+  1. Recomento que sempre comece o app com o **template**:
+
+  ```r
+  library(shiny)
+
+  ui <- fluidPage()
+
+  server <- function(input, output) {}
+
+  shinyApp(ui = ui, server = server)
+  ```
+  
+  2. Adicione elementos no seu app passando-os como argumentos do `fluidPage()`
+  3. Crie **inputs** (entradas) reativos com uma função de ***Input()**
+  4. Crie resultados reativos com um função de ***Output()**
+  5. e, finalmente, vamos usar a função `server` para agregar os **inputs** com os **outputs**.
+
+## Diga ao `server` como agregar inputs nos outputs
+
+Abaixo é como a função `server` deve ficar em seu template ao início do programa:
+
+  ```r
+  server <- function(input, output) {
+
+
+  }
+  ```
+
+Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos popular a função `server` com instruções. Estas instruções devem seguir 3 regras:
+1. Salve objetos para exibir a saída (**output$**)
+  ```r
+  server <- function(input, output) {
+    output$hist <- # código
+
+  }
+  ```
+  Se você está construindo uma saída, você deve salvar o objeto em **output$**. No código acima, o código irá salvar o objeto no elemento `hist` da lista de saídas... sím! o argumento **output** é uma `list`, lembra dela? rsrs (observação: o argumento **input** do seu `server` tambem é uma `list`)
+  
+2. 
