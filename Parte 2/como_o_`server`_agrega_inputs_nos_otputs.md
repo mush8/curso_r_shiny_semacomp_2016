@@ -70,3 +70,9 @@ Alterando então nossa função `server` para
 utilizaremos o valor de entrada feito pelo usuário em nossa função para renderizar o *plot*. Com isso não teremos mais 100 números gerados, teremos o número definido pelo usuário. :D
 
 Se você seguir as 3 regras acima, a reatividade das funções irá tomar conta de seu aplicativo. Reatividade automática ocorre sempre  que você utilizar um valor de entrada (*input*) para renderizar um objeto de saída (*output*). Shiny irá cuidar disso para você.
+
+Agora, finalizamos nosso primeiro app juntos. Rode o código abaixo e veja o resultado:
+
+  ```r
+  
+  ```
