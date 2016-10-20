@@ -7,3 +7,5 @@
   * Qual é a proporção de cartões amarelos que ele cometeu em toda sua carreira? E de vermelhos?
 
 ######Obs: O estatístico leu em sua biografia que Jaime era muito supersticioso. E não podia jogar em anos MÚLTIPLOS DE 5. Caso contrário teria azar para sempre e nunca mais faria um gol.
+
+[Tabela](https://drive.google.com/drive/u/0/folders/0B5f3P4gLYJ4oVGQxSXhUZ3cxcGM)
