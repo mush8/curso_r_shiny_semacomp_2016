@@ -14,7 +14,7 @@ Porém, em nosso aplicativo minimalista, não vamos utilizar todos os argumentos
 
 ## Exercício 1.
 
-Utilize o template abaixo:
+Utilize o template abaixo e organize os blocos de código **a)**, **b)**, **c)**, **d)** e **e)** nas linhas abaixo dos comentários no template.
 
   ```r
   # template
@@ -25,18 +25,18 @@ Utilize o template abaixo:
 
   ui <- fluidPage(
     headerPanel('Iris k-means clustering'),
-    # um bloco virá aqui
+    # um bloco virá aqui abaixo
     
-    # outro bloco virá aqui
+    # outro bloco virá aqui abaixo
 
   )
 
   server <- function(input, output) {
-    # um bloco virá aqui
+    # um bloco virá aqui abaixo
     
-    # outro bloco virá aqui
+    # outro bloco virá aqui abaixo
     
-    # e outro bloco virá aqui
+    # e outro bloco virá aqui abaixo
 
   }
 
