@@ -10,7 +10,7 @@ Abaixo é como a função `server` deve ficar em seu template ao início do prog
   ```
 
 Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos popular a função `server` com instruções. Estas instruções devem seguir 3 regras:
-## 1. Salve objetos para exibir a saída (**output$**)
+### 1. Salve objetos para exibir a saída (output$)
   ```r
   server <- function(input, output) {
     output$hist <- # código
@@ -21,7 +21,7 @@ Para explicar como o `server` deve unir os **inputs** com os **outputs** devemos
   
   Eu escolhi o nome `hist`, porque é o mesmo nome colocado na nossa função do `ui`, a `plotOutput("hist")`, lembra?
   
-## 2. A segunda regra é, o que você salvar no **output** é algo criado com uma função **render*()** (renderizada).
+### 2. A segunda regra é, o que você salvar no output é algo criado com uma função render*() (renderizada).
   ```r
   server <- function(input, output) {
     output$hist <- renderPlot({
@@ -39,5 +39,6 @@ Perceba também que o argumento passado para a função **render*()** é diferen
   renderPlot({ hist(rnorm(100)) })
   ```
 
+Todas as funções começam com `render` e continua com o nome do objeto que queremos criar, no caso `Plot`. O argumento que a função de renderização recebe é um bloco de código em R que constrói o objeto que você quer fazer. O código acima irá contruir um histograma (função `hist` do R base) de de 100 números aleatórios de uma distribuição normal (função `rnorm` do R base).
 
 
