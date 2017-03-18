@@ -1,5 +1,13 @@
 # Introdução ao R e Shiny
 
+Este projeto foi desenvolvido para acolher material desenvolvido para treinamento *Introdução ao R e Shiny* aplicado durante o congresso **SEMaComp 2016**.
+
+A motivação foi a procura de alunos por conhecimentos no desenvolvimento de aplicações técnico-científicas facilidada pela linguagem R e seu pacote Shiny. O treinamento teve presença de mais de 40 alunos durante encontro de 4 horas na programação oficial do congresso.
+
+Segue abaixo a introdução do curso.
+
+## Curso
+
 Bem vindo(a) ao treinamento *Introdução ao R e Shiny* na **SEMaComp 2016**. Este material foi desenvolvido para o treinamento ministrado durante nossa programação no *Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo*.
 
 Este material é um compilado de diversas fontes:
