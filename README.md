@@ -32,7 +32,7 @@ Este material é um compilado de diversas fontes:
    * [Instalando R, RStudio e Shiny](InstalandoR.md)
    * [Introdução](introducaomd.md)
 * [Parte 1](Parte 1/README.md)
-   * [Primeiros passos com R](Parte 1/massaR.md)
+   * [Primeiros passos com R](Parte%201/massaR.md)
    * [Operações Básicas e vetores](Parte 1/Rmais.md)
    * [Operações com matrizes e data frames](Parte 1/operacoes_com_matrizes_e_dataframes.md)
    * [Carregar e Salvar Dados em R](Parte 1/carregar_e_salvar_dados_em_r.md)
